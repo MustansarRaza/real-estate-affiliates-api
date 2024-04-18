@@ -1,0 +1,10 @@
+[
+  {
+    "model": "AgencyConfiguration",
+    "data": {
+      "id": 1,
+      "agencyId": 1337,
+      "platformId": 1
+    }
+  }
+]

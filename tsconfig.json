@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["es2017", "dom"],
+    "target": "es2017",
+    "types": [
+      "sequelize",
+      "node",
+      "express",
+      "express-unless",
+      "express-session",
+      "supertest",
+      "jest",
+      "@sentry/node",
+      "@sentry/types",
+      "bunyan"
+    ],
+    "strict": true,
+    "baseUrl": ".",
+    "noEmit": true,
+    "paths": {
+      "affiliates-api/*": ["./src/*"]
+    },
+    "plugins": [{ "transform": "@zerollup/ts-transform-paths" }],
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*", "tests/**/*", "types/*", "languages/*.json"]
+}

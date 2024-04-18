@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LeadsService create can create a lead 1`] = `
+Object {
+  "LeadLocations": Array [
+    Object {
+      "createdAt": 2020-03-28T14:12:00.000Z,
+      "id": 1,
+      "leadID": 1,
+      "locationID": 3,
+      "type": "interested_in",
+    },
+  ],
+  "addressID": null,
+  "agencyID": 1337,
+  "classificationID": 3,
+  "clientID": 1,
+  "createdAt": 2020-03-28T14:12:00.000Z,
+  "id": null,
+  "inquiryBathroomCount": 2,
+  "inquiryBedroomCount": 3,
+  "inquiryBudgetAmount": 5000,
+  "inquiryBudgetCurrency": "EUR",
+  "inquiryCategoryID": 1,
+  "inquiryObjectID": 1,
+  "inquiryObjectType": "project",
+  "inquiryPurposeID": 1,
+  "market": "primary",
+  "side": "demand",
+  "source": "Propforce.com",
+  "state": "on",
+  "statusID": 1,
+  "tsrClassificationID": 3,
+  "updatedAt": 2020-03-28T14:12:00.000Z,
+  "userID": 1,
+}
+`;
+
+exports[`LeadsService create does not allow creating a lead with an invalid category ID 1`] = `
+Object {
+  "extra": Object {
+    "ssoID": "b8d3b78f-d7c0-45f9-be04-1e168ae959d3",
+  },
+  "message": "Invalid category or location ID",
+  "name": "BadRequest",
+  "originalError": Object {
+    "code": undefined,
+    "message": "SQLITE_CONSTRAINT: FOREIGN KEY constraint failed",
+    "name": "SequelizeForeignKeyConstraintError",
+  },
+  "statusCode": 400,
+}
+`;
+
+exports[`LeadsService create does not allow creating a lead with an invalid location ID 1`] = `
+Object {
+  "extra": Object {
+    "ssoID": "b8d3b78f-d7c0-45f9-be04-1e168ae959d3",
+  },
+  "message": "Invalid category or location ID",
+  "name": "BadRequest",
+  "originalError": Object {
+    "code": undefined,
+    "message": "SQLITE_CONSTRAINT: FOREIGN KEY constraint failed",
+    "name": "SequelizeForeignKeyConstraintError",
+  },
+  "statusCode": 400,
+}
+`;
+
+exports[`LeadsService create does not allow creating a lead without having an owner 1`] = `
+Object {
+  "extra": Object {
+    "ssoID": "b8d3b78f-d7c0-45f9-be04-1e168ae959d3",
+  },
+  "message": "Current user has no owner",
+  "name": "BadRequest",
+  "originalError": undefined,
+  "statusCode": 400,
+}
+`;
+
+exports[`LeadsService create returns a nice error if the initial status is not available 1`] = `
+Object {
+  "extra": Object {
+    "ssoID": "b8d3b78f-d7c0-45f9-be04-1e168ae959d3",
+  },
+  "message": "No initial status available",
+  "name": "WrongSetup",
+  "originalError": undefined,
+  "statusCode": 500,
+}
+`;
+
+exports[`LeadsService listSummary should return the summary by considering only the tasks as well as winning tasks that were created against the lead in the provided interval i.e. fromDate : 2020-01-01T00:00:00Z, toDate: 2020-12-31T00:00:00Z 1`] = `
+Object {
+  "active": 2,
+  "closedWon": 0,
+  "completeDownPayment": 0,
+  "downPayment": 0,
+  "inactive": 2,
+  "tokenGenerated": 0,
+}
+`;
+
+exports[`LeadsService listSummary should return the summary by considering only the tasks as well as winning tasks that were created against the lead in the provided interval i.e. fromDate : 2020-01-01T00:00:00Z, toDate: undefined 1`] = `
+Object {
+  "active": 3,
+  "closedWon": 1,
+  "completeDownPayment": 0,
+  "downPayment": 0,
+  "inactive": 1,
+  "tokenGenerated": 0,
+}
+`;
+
+exports[`LeadsService listSummary should return the summary by considering only the tasks as well as winning tasks that were created against the lead in the provided interval i.e. fromDate : 2021-01-01T00:00:00Z, toDate: 2021-02-15T00:00:00Z 1`] = `
+Object {
+  "active": 1,
+  "closedWon": 0,
+  "completeDownPayment": 0,
+  "downPayment": 0,
+  "inactive": 3,
+  "tokenGenerated": 1,
+}
+`;
+
+exports[`LeadsService listSummary should return the summary by considering only the tasks as well as winning tasks that were created against the lead in the provided interval i.e. fromDate : 2021-01-01T00:00:00Z, toDate: 2021-04-15T00:00:00Z 1`] = `
+Object {
+  "active": 1,
+  "closedWon": 1,
+  "completeDownPayment": 0,
+  "downPayment": 0,
+  "inactive": 3,
+  "tokenGenerated": 0,
+}
+`;
+
+exports[`LeadsService listSummary should return the summary by considering only the tasks as well as winning tasks that were created against the lead in the provided interval i.e. fromDate : 2021-02-15T00:00:00Z, toDate: 2021-03-31T00:00:00Z 1`] = `
+Object {
+  "active": 1,
+  "closedWon": 0,
+  "completeDownPayment": 0,
+  "downPayment": 1,
+  "inactive": 3,
+  "tokenGenerated": 0,
+}
+`;
+
+exports[`LeadsService listSummary should return the summary by considering only the tasks as well as winning tasks that were created against the lead in the provided interval i.e. fromDate : undefined, toDate: 2021-04-15T00:00:00Z 1`] = `
+Object {
+  "active": 3,
+  "closedWon": 1,
+  "completeDownPayment": 0,
+  "downPayment": 0,
+  "inactive": 1,
+  "tokenGenerated": 0,
+}
+`;
+
+exports[`LeadsService listSummary should return the summary by considering only the tasks as well as winning tasks that were created against the lead in the provided interval i.e. fromDate : undefined, toDate: undefined 1`] = `
+Object {
+  "active": 3,
+  "closedWon": 1,
+  "completeDownPayment": 0,
+  "downPayment": 0,
+  "inactive": 1,
+  "tokenGenerated": 0,
+}
+`;

@@ -1,0 +1,62 @@
+[
+  {
+    "model": "ContractStatus",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 3,
+      "name": "Signed",
+      "key": "signed",
+      "order": 30,
+      "isActive": 1,
+      "createdAt": "2021-04-05T00:00:00+0000"
+    }
+  },
+  {
+    "model": "ContractStatus",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 6,
+      "name": "Cancelled",
+      "key": "cancelled",
+      "order": 60,
+      "isActive": 1,
+      "createdAt": "2021-04-05T00:00:00+0000"
+    }
+  },
+  {
+    "model": "ContractStatus",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 9,
+      "name": "Draft",
+      "key": "draft",
+      "order": 70,
+      "isActive": 1,
+      "createdAt": "2021-04-05T00:00:00+0000"
+    }
+  },
+  {
+    "model": "ContractStatus",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 11,
+      "name": "Pending",
+      "key": "pending",
+      "order": 80,
+      "isActive": 1,
+      "createdAt": "2021-04-05T00:00:00+0000"
+    }
+  }
+]

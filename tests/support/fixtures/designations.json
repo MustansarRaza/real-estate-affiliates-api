@@ -1,0 +1,9 @@
+[
+  {
+    "model": "Designation",
+    "data": {
+      "id": 1,
+      "designation_short": "bdm"
+    }
+  }
+]

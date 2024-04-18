@@ -1,0 +1,20 @@
+[
+  {
+    "model": "AffiliateAssignee",
+    "data": {
+      "id": 1,
+      "affiliateID": 1,
+      "type": "bdm",
+      "userID": 1
+    }
+  },
+  {
+    "model": "AffiliateAssignee",
+    "data": {
+      "id": 2,
+      "affiliateID": 1,
+      "type": "coordinator",
+      "userID": 2
+    }
+  }
+]

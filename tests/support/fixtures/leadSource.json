@@ -1,0 +1,11 @@
+[
+  {
+    "model": "LeadSource",
+    "data": {
+      "id": 1,
+      "name": "Affiliate",
+      "key": "affiliate",
+      "platformId": 1
+    }
+  }
+]

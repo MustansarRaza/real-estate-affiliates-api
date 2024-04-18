@@ -1,0 +1,15 @@
+[
+  {
+    "model": "Platform",
+    "data": {
+      "id": 1,
+      "platformKey": "zameen",
+      "platformTitle": "Zameen",
+      "latitude": "31.5154486",
+      "longitude": "74.3498132",
+      "currencyUnit": "PKR",
+      "createdAt": "2018-10-09 17:45:48",
+      "updatedAt": "2018-10-09 17:45:48"
+    }
+  }
+]

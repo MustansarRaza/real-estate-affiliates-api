@@ -1,0 +1,47 @@
+[
+  {
+    "model": "Country",
+    "data": {
+      "id": 1,
+      "name": "Netherlands",
+      "iso31662Code": "NL",
+      "e164PhonePrefix": "+31"
+    }
+  },
+  {
+    "model": "Country",
+    "data": {
+      "id": 2,
+      "name": "Romania",
+      "iso31662Code": "RO",
+      "e164PhonePrefix": "+40"
+    }
+  },
+  {
+    "model": "Country",
+    "data": {
+      "id": 3,
+      "name": "Pakistan",
+      "iso31662Code": "PK",
+      "e164PhonePrefix": "+92"
+    }
+  },
+  {
+    "model": "Country",
+    "data": {
+      "id": 4,
+      "name": "Pakistan",
+      "iso31662Code": "PK",
+      "e164PhonePrefix": "+92"
+    }
+  },
+  {
+    "model": "Country",
+    "data": {
+      "id": 5,
+      "name": "Germany",
+      "iso31662Code": null,
+      "e164PhonePrefix": null
+    }
+  }
+]

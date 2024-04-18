@@ -1,0 +1,14 @@
+[
+  {
+    "model": "AppRelease",
+    "data": {
+      "id": 1,
+      "appName": "Affiliates Mobile App",
+      "fileUrl": "sampleUrl",
+      "version": "0.1.1",
+      "appVariables": {
+        "min_version": "0.1.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "model": "Category",
+    "data": {
+      "id": 1,
+      "name": "Residential",
+      "key": "residential",
+      "nameSingular": "Residential",
+      "orderIndex": 0,
+      "slug": "residential",
+      "parentID": null,
+      "platformId": 1
+    }
+  },
+  {
+    "model": "Category",
+    "data": {
+      "id": 10,
+      "name": "Plots",
+      "key": "plots",
+      "nameSingular": "Plot",
+      "orderIndex": 2,
+      "slug": "Plots",
+      "parentID": null,
+      "platformId": 1
+    }
+  },
+  {
+    "model": "Category",
+    "data": {
+      "id": 2,
+      "name": "Commercial",
+      "key": "commercial",
+      "nameSingular": "Commercial",
+      "orderIndex": 1,
+      "slug": "commercial",
+      "parentID": null,
+      "platformId": 1
+    }
+  },
+  {
+    "model": "Category",
+    "data": {
+      "id": 3,
+      "name": "Apartments",
+      "key": "apartments",
+      "nameSingular": "Apartment",
+      "orderIndex": 3,
+      "slug": "apartments",
+      "parentID": 1,
+      "platformId": 1
+    }
+  },
+  {
+    "model": "Category",
+    "data": {
+      "id": 4,
+      "name": "Shops",
+      "key": "shops",
+      "nameSingular": "Shop",
+      "orderIndex": 4,
+      "slug": "shops",
+      "parentID": 2,
+      "platformId": 1
+    }
+  },
+  {
+    "model": "Category",
+    "data": {
+      "id": 5,
+      "name": "Residential Plots",
+      "key": "residential_plots",
+      "nameSingular": "Residential Plot",
+      "orderIndex": 10,
+      "slug": "Residential_Plots",
+      "parentID": 10,
+      "platformId": 1
+    }
+  },
+  {
+    "model": "Category",
+    "data": {
+      "id": 6,
+      "name": "Residential Apartment",
+      "key": "residential_apartment",
+      "nameSingular": "Residential Apartment",
+      "orderIndex": 1,
+      "slug": "Residential Apartment",
+      "parentID": 3,
+      "platformId": 1
+    }
+  },
+  {
+    "model": "Category",
+    "data": {
+      "id": 7,
+      "name": "Hotel Apartment",
+      "key": "hotel_apartment",
+      "nameSingular": "Hotel Apartment",
+      "orderIndex": 20,
+      "slug": "Hotel_Apartment",
+      "parentID": 3,
+      "platformId": 1
+    }
+  }
+]

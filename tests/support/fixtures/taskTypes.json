@@ -1,0 +1,731 @@
+[
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 53,
+      "title": "Meetings",
+      "key": "meetings",
+      "parentID": null
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 54,
+      "title": "Calls",
+      "key": "calls",
+      "parentID": null
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 55,
+      "title": "Email",
+      "key": "email",
+      "parentID": null
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 56,
+      "title": "Sales",
+      "key": "sales",
+      "parentID": null
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 86,
+      "title": "Acquisition",
+      "key": "acquisition",
+      "parentID": null
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 5,
+      "title": "Sent Availability List",
+      "key": "sent_availability_list",
+      "parentID": null
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 32,
+      "title": "Marketing Materials",
+      "key": "marketing_materials",
+      "parentID": null
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 33,
+      "title": "Commission Cheque",
+      "key": "commission_cheque",
+      "parentID": null
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 38,
+      "title": "Sent Availability List",
+      "key": "sent_availability_list",
+      "parentID": null
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 61,
+      "title": "Authorisation Certificate",
+      "key": "authorisation_certificate",
+      "parentID": null
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 62,
+      "title": "Meetings",
+      "key": "meetings",
+      "parentID": null
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 63,
+      "title": "Sales",
+      "key": "sales",
+      "parentID": null
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 64,
+      "title": "Calls",
+      "key": "calls",
+      "parentID": null
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 65,
+      "title": "Emails",
+      "key": "emails",
+      "parentID": null
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 78,
+      "title": "Events",
+      "key": "events",
+      "parentID": null
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 92,
+      "title": "Complaint",
+      "key": "complaint",
+      "parentID": null
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 1,
+      "title": "Contact Client (Call)",
+      "key": "contact_client_call",
+      "parentID": 64
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 2,
+      "title": "Follow Up (Call)",
+      "key": "follow_up_call",
+      "parentID": 64
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 3,
+      "title": "Meeting (Arrange)",
+      "key": "meeting_arrange",
+      "parentID": 62
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 4,
+      "title": "Meeting (Done)",
+      "key": "meeting_done",
+      "parentID": 62
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 6,
+      "title": "Token Received",
+      "key": "token_payment",
+      "parentID": 63
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 7,
+      "title": "Contact Client (Call Attempt)",
+      "key": "contact_client_call_attempt",
+      "parentID": 64
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 8,
+      "title": "Contact Client (Email)",
+      "key": "contact_client_email",
+      "parentID": 65
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 9,
+      "title": "Follow Up (Email)",
+      "key": "follow_up_email",
+      "parentID": 65
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 10,
+      "title": "Meeting (Attempt)",
+      "key": "meeting_attempt",
+      "parentID": 62
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 11,
+      "title": "Site Visit",
+      "key": "site_visit",
+      "parentID": 62
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 12,
+      "title": "Meeting Push",
+      "key": "meeting_push",
+      "parentID": 62
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 13,
+      "title": "Company Office",
+      "key": "company_office",
+      "parentID": 62
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 14,
+      "title": "Out-door",
+      "key": "outdoor",
+      "parentID": 62
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 15,
+      "title": "Site Office",
+      "key": "site_office",
+      "parentID": 62
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 16,
+      "title": "Whatsapp (Call)",
+      "key": "whatsapp_call",
+      "parentID": 64
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 17,
+      "title": "Whatsapp (Message)",
+      "key": "whatsapp_message",
+      "parentID": 64
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 34,
+      "title": "Contact Client (Call)",
+      "key": "contact_client_call",
+      "parentID": 54
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 35,
+      "title": "Follow Up (Call)",
+      "key": "follow_up_call",
+      "parentID": 54
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 36,
+      "title": "Meeting (Arrange)",
+      "key": "meeting_arrange",
+      "parentID": 53
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 37,
+      "title": "Meeting (Done)",
+      "key": "meeting_done",
+      "parentID": 53
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 39,
+      "title": "Token Receive",
+      "key": "token_payment",
+      "parentID": 56
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 40,
+      "title": "Contact Client (Call Attempt)",
+      "key": "contact_client_call_attempt",
+      "parentID": 54
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 41,
+      "title": "Contact Client (Email)",
+      "key": "contact_client_email",
+      "parentID": 55
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 42,
+      "title": "Follow Up (Email)",
+      "key": "follow_up_email",
+      "parentID": 55
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 43,
+      "title": "Meeting (Attempt)",
+      "key": "meeting_attempt",
+      "parentID": 53
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 44,
+      "title": "Walk-in",
+      "key": "walk_in",
+      "parentID": 53
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 45,
+      "title": "Meeting Push",
+      "key": "meeting_push",
+      "parentID": 53
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 46,
+      "title": "Company Office",
+      "key": "company_office",
+      "parentID": 37
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 47,
+      "title": "Out-door",
+      "key": "outdoor",
+      "parentID": 37
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 48,
+      "title": "Site Office",
+      "key": "site_office",
+      "parentID": 37
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 49,
+      "title": "Whatsapp (Call)",
+      "key": "whatsapp_call",
+      "parentID": 54
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 50,
+      "title": "Whatsapp (Message)",
+      "key": "whatsapp_message",
+      "parentID": 54
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 51,
+      "title": "Closed (Lost)",
+      "key": "closed_lost",
+      "parentID": 56
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 52,
+      "title": "Closed (Won)",
+      "key": "closed_won",
+      "parentID": 56
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 57,
+      "title": "SMS",
+      "key": "sms",
+      "parentID": 54
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 58,
+      "title": "Video Meeting",
+      "key": "video_meeting",
+      "parentID": 53
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 60,
+      "title": "Standee delivered",
+      "key": "standee_delivered",
+      "parentID": 32
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 66,
+      "title": "Completed",
+      "key": "completed",
+      "parentID": 62
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 67,
+      "title": "Marketing Collateral Bundle",
+      "key": "marketing_collateral_bundle",
+      "parentID": 32
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 68,
+      "title": "Brochures Delivered",
+      "key": "brochures_delivered",
+      "parentID": 32
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 69,
+      "title": "3 Fold",
+      "key": "3_fold",
+      "parentID": 32
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 70,
+      "title": "Flyer",
+      "key": "flyer",
+      "parentID": 32
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 71,
+      "title": "Payment Plans",
+      "key": "payment_plans",
+      "parentID": 32
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 72,
+      "title": "Partial",
+      "key": "partial",
+      "parentID": 33
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 73,
+      "title": "Full",
+      "key": "full",
+      "parentID": 33
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 77,
+      "title": "Contract Cancelled",
+      "key": "contract_cancelled",
+      "parentID": 56
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 79,
+      "title": "Business Connect",
+      "key": "business_connect_event",
+      "parentID": 78
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 80,
+      "title": "Flex Delivered",
+      "key": "flex_delivered",
+      "parentID": 32
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 81,
+      "title": "Meeting Confirmed",
+      "key": "meeting_confirmed",
+      "parentID": 54
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 82,
+      "title": "Meeting Cancelled",
+      "key": "meeting_cancelled",
+      "parentID": 54
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 83,
+      "title": "Meeting Postponed",
+      "key": "meeting_postponed",
+      "parentID": 54
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 85,
+      "title": "Partial Down Payment",
+      "key": "partial_down_payment",
+      "parentID": 56
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 87,
+      "title": "Negotiation",
+      "key": "negotiation",
+      "parentID": 86
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 88,
+      "title": "Viewing",
+      "key": "viewing",
+      "parentID": 56
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 89,
+      "title": "Verification",
+      "key": "verification",
+      "parentID": 86
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 90,
+      "title": "Commission",
+      "key": "commission",
+      "parentID": 86
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 91,
+      "title": "MOU",
+      "key": "mou",
+      "parentID": 86
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 93,
+      "title": "New project lead",
+      "key": "new_project_lead",
+      "parentID": 92
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 94,
+      "title": "Lack of visit from the BDA side",
+      "key": "no_bda_visit",
+      "parentID": 92
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 95,
+      "title": "Behavioral issues of the staff",
+      "key": "behavioral_issues",
+      "parentID": 92
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 96,
+      "title": "Commission delay",
+      "key": "commission_delay",
+      "parentID": 92
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 97,
+      "title": "Don\u2019t want to work with Zameen",
+      "key": "dont_want_work",
+      "parentID": 92
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 98,
+      "title": "Others",
+      "key": "others",
+      "parentID": 92
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 99,
+      "title": "Resolved",
+      "key": "resolved",
+      "parentID": 92
+    }
+  },
+  {
+    "model": "TaskType",
+    "data": {
+      "id": 100,
+      "title": "Generate Token",
+      "key": "generate_token",
+      "parentID": 56
+    }
+  }
+]

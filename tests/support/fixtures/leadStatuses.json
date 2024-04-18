@@ -1,0 +1,255 @@
+[
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 1,
+      "title": "New",
+      "isInitial": true
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 2,
+      "title": "Contacted Client"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 3,
+      "title": "Followed Up"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 4,
+      "title": "Meeting (Arranged)"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 5,
+      "title": "Meeting (Done)"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 6,
+      "title": "Closed (Won)"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 8,
+      "title": "Closed (Lost)"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 9,
+      "title": "Token Received"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 10,
+      "title": "Call Attempt"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 11,
+      "title": "Contacted Client"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 12,
+      "title": "Followed Up"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 13,
+      "title": "Meeting (Attempt)"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 14,
+      "title": "Walk-in"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 15,
+      "title": "Meeting Pushed"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 16,
+      "title": "Company Office"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 17,
+      "title": "Out-door"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 18,
+      "title": "Site Office"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 19,
+      "title": "Whatsapp Call"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 20,
+      "title": "Whatsapp (Message)"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 21,
+      "title": "Meetings"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 22,
+      "title": "Calls"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 23,
+      "title": "Email"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 24,
+      "title": "Sales"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 25,
+      "title": "SMS"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 26,
+      "title": "Video Meeting"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 28,
+      "title": "Contract Cancelled"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 29,
+      "title": "Meeting Confirmed"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 30,
+      "title": "Meeting Cancelled"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 31,
+      "title": "Meeting Postponed"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 33,
+      "title": "Partial Down Payment"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 34,
+      "title": "Acquisition"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 35,
+      "title": "Negotiation"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 36,
+      "title": "Viewing"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 37,
+      "title": "Verification"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 38,
+      "title": "Commission"
+    }
+  },
+  {
+    "model": "LeadStatus",
+    "data": {
+      "id": 39,
+      "title": "MOU"
+    }
+  }
+]

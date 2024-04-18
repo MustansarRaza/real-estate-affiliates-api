@@ -1,0 +1,218 @@
+[
+  {
+    "model": "Task",
+    "data": {
+      "id": 1,
+      "status": "on",
+      "typeID": 1,
+      "stageID": 3,
+      "againstType": "lead",
+      "againstID": 1,
+      "addedByUserID": 1,
+      "assignedToUserID": 1,
+      "title": null,
+      "description": null,
+      "createdAt": "2020-03-11T09:19:40+0000",
+      "updatedAt": "2020-03-11T09:19:40+0000",
+      "completedAt": null
+    }
+  },
+  {
+    "model": "Task",
+    "data": {
+      "id": 2,
+      "status": "on",
+      "typeID": 3,
+      "stageID": 3,
+      "againstType": "lead",
+      "againstID": 1,
+      "addedByUserID": 1,
+      "assignedToUserID": 1,
+      "title": null,
+      "description": null,
+      "createdAt": "2020-03-12T14:00:00+0000",
+      "updatedAt": "2020-03-12T14:00:00+0000",
+      "completedAt": null
+    }
+  },
+  {
+    "model": "Task",
+    "data": {
+      "id": 3,
+      "status": "on",
+      "typeID": 3,
+      "stageID": 3,
+      "againstType": "lead",
+      "againstID": 1,
+      "addedByUserID": 1,
+      "assignedToUserID": 1,
+      "title": null,
+      "description": null,
+      "createdAt": "2020-03-13T17:21:00+0000",
+      "updatedAt": "2020-03-13T17:21:00+0000",
+      "completedAt": null
+    }
+  },
+  {
+    "model": "Task",
+    "data": {
+      "id": 4,
+      "status": "on",
+      "typeID": 67,
+      "stageID": 4,
+      "againstType": "lead",
+      "againstID": 1,
+      "addedByUserID": 1,
+      "assignedToUserID": 1,
+      "title": null,
+      "description": null,
+      "createdAt": "2020-03-15T11:31:00+0000",
+      "updatedAt": "2020-03-15T11:31:00+0000",
+      "completedAt": null
+    }
+  },
+  {
+    "model": "Task",
+    "data": {
+      "id": 5,
+      "status": "on",
+      "typeID": 6,
+      "stageID": 3,
+      "againstType": "lead",
+      "againstID": 1,
+      "addedByUserID": 1,
+      "assignedToUserID": 1,
+      "title": null,
+      "description": null,
+      "createdAt": "2020-03-15T11:32:00+0000",
+      "updatedAt": "2020-03-15T11:32:00+0000",
+      "completedAt": null
+    }
+  },
+  {
+    "model": "Task",
+    "data": {
+      "id": 6,
+      "status": "on",
+      "typeID": 1,
+      "stageID": 3,
+      "againstType": "lead",
+      "againstID": 3,
+      "addedByUserID": 1,
+      "assignedToUserID": 1,
+      "title": null,
+      "description": null,
+      "createdAt": "2020-03-11T09:19:40+0000",
+      "updatedAt": "2020-03-11T09:19:40+0000",
+      "completedAt": "2020-03-11T09:19:40+0000"
+    }
+  },
+  {
+    "model": "Task",
+    "data": {
+      "id": 7,
+      "status": "deleted",
+      "typeID": 9,
+      "stageID": 1,
+      "againstType": "lead",
+      "againstID": 3,
+      "addedByUserID": 1,
+      "assignedToUserID": 1,
+      "title": null,
+      "description": null,
+      "createdAt": "2020-03-12T11:38:40+0000",
+      "updatedAt": "2020-03-12T11:38:40+0000",
+      "completedAt": null
+    }
+  },
+  {
+    "model": "Task",
+    "data": {
+      "id": 8,
+      "status": "on",
+      "typeID": 3,
+      "stageID": 1,
+      "againstType": "lead",
+      "againstID": 3,
+      "addedByUserID": 1,
+      "assignedToUserID": 1,
+      "title": null,
+      "description": null,
+      "createdAt": "2020-03-12T11:38:40+0000",
+      "updatedAt": "2020-03-12T11:38:40+0000",
+      "completedAt": null
+    }
+  },
+  {
+    "model": "Task",
+    "data": {
+      "id": 9,
+      "status": "on",
+      "typeID": 5,
+      "stageID": 3,
+      "againstType": "affiliate",
+      "againstID": 1,
+      "addedByUserID": 1,
+      "assignedToUserID": 1,
+      "title": null,
+      "description": null,
+      "createdAt": "2020-03-12T11:38:40+0000",
+      "updatedAt": "2020-03-12T11:38:40+0000",
+      "completedAt": null
+    }
+  },
+  {
+    "model": "Task",
+    "data": {
+      "id": 10,
+      "status": "on",
+      "typeID": 100,
+      "stageID": 3,
+      "againstType": "lead",
+      "againstID": 5,
+      "addedByUserID": 1,
+      "assignedToUserID": 1,
+      "title": null,
+      "description": null,
+      "createdAt": "2021-02-12T00:00:40+0000",
+      "updatedAt": "2021-02-12T00:00:40+0000",
+      "completedAt": null
+    }
+  },
+  {
+    "model": "Task",
+    "data": {
+      "id": 11,
+      "status": "on",
+      "typeID": 85,
+      "stageID": 3,
+      "againstType": "lead",
+      "againstID": 5,
+      "addedByUserID": 1,
+      "assignedToUserID": 1,
+      "title": null,
+      "description": null,
+      "createdAt": "2021-03-30T00:00:40+0000",
+      "updatedAt": "2021-03-30T00:00:40+0000",
+      "completedAt": null
+    }
+  },
+  {
+    "model": "Task",
+    "data": {
+      "id": 12,
+      "status": "on",
+      "typeID": 52,
+      "stageID": 3,
+      "againstType": "lead",
+      "againstID": 5,
+      "addedByUserID": 1,
+      "assignedToUserID": 1,
+      "title": null,
+      "description": null,
+      "createdAt": "2021-04-10T00:00:40+0000",
+      "updatedAt": "2021-04-10T00:00:40+0000",
+      "completedAt": null
+    }
+  }
+]

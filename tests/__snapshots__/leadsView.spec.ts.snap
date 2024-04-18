@@ -1,0 +1,624 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GET /leads denies access to unauthenticated requests 1`] = `Object {}`;
+
+exports[`GET /leads denies access to unauthenticated requests 2`] = `
+Object {
+  "cache-control": "private, no-store",
+  "connection": "close",
+  "strict-transport-security": "max-age=15552000; includeSubDomains",
+  "transfer-encoding": "chunked",
+  "x-content-type-options": "nosniff",
+  "x-dns-prefetch-control": "off",
+  "x-download-options": "noopen",
+  "x-frame-options": "SAMEORIGIN",
+  "x-xss-protection": "1; mode=block",
+}
+`;
+
+exports[`GET /leads returns a list of leads for a verified user 1`] = `
+Array [
+  Object {
+    "classification": "moderate",
+    "clientID": 1,
+    "createdAt": "2020-03-13T11:20:00.000Z",
+    "id": 3,
+    "inquiry": Object {
+      "bathroomCount": null,
+      "bedroomCount": 3,
+      "budget": Object {
+        "amount": 500000,
+        "currency": "PKR",
+      },
+      "categoryID": 2,
+      "locationIDs": Array [
+        3,
+      ],
+      "object": Object {
+        "id": 3,
+        "type": "project",
+      },
+      "purpose": "for-sale",
+    },
+    "lastTask": Object {
+      "dateAdded": "2020-03-12T11:38:40.000Z",
+      "id": 8,
+      "taskType": Object {
+        "id": 3,
+        "parent": Object {
+          "id": 62,
+          "title": "Meetings",
+        },
+        "title": "Meeting (Arrange)",
+      },
+      "title": null,
+    },
+    "market": "primary",
+    "side": "demand",
+    "status": Object {
+      "id": 18,
+      "title": "Site Office",
+    },
+    "updatedAt": "2020-03-13T11:20:00.000Z",
+  },
+  Object {
+    "classification": "veryHot",
+    "clientID": 1,
+    "createdAt": "2020-03-11T09:19:40.000Z",
+    "id": 5,
+    "inquiry": Object {
+      "bathroomCount": 1,
+      "bedroomCount": 2,
+      "budget": null,
+      "categoryID": 4,
+      "locationIDs": Array [],
+      "object": Object {
+        "id": 1,
+        "type": "project",
+      },
+      "purpose": "for-sale",
+    },
+    "lastTask": Object {
+      "dateAdded": "2021-04-10T00:00:40.000Z",
+      "id": 12,
+      "taskType": Object {
+        "id": 52,
+        "parent": Object {
+          "id": 56,
+          "title": "Sales",
+        },
+        "title": "Closed (Won)",
+      },
+      "title": null,
+    },
+    "market": "primary",
+    "side": "demand",
+    "status": Object {
+      "id": 6,
+      "title": "Closed (Won)",
+    },
+    "updatedAt": "2020-04-10T11:21:00.000Z",
+  },
+  Object {
+    "classification": "veryHot",
+    "clientID": 1,
+    "createdAt": "2020-03-11T09:19:40.000Z",
+    "id": 1,
+    "inquiry": Object {
+      "bathroomCount": 1,
+      "bedroomCount": 2,
+      "budget": null,
+      "categoryID": 4,
+      "locationIDs": Array [
+        1,
+        3,
+      ],
+      "object": Object {
+        "id": 1,
+        "type": "project",
+      },
+      "purpose": "for-sale",
+    },
+    "lastTask": Object {
+      "dateAdded": "2020-03-15T11:32:00.000Z",
+      "id": 5,
+      "taskType": Object {
+        "id": 6,
+        "parent": Object {
+          "id": 63,
+          "title": "Sales",
+        },
+        "title": "Token Received",
+      },
+      "title": null,
+    },
+    "market": "primary",
+    "side": "demand",
+    "status": Object {
+      "id": 9,
+      "title": "Token Received",
+    },
+    "updatedAt": "2020-03-12T11:21:00.000Z",
+  },
+  Object {
+    "classification": "veryHot",
+    "clientID": 1,
+    "createdAt": "2020-03-10T09:19:40.000Z",
+    "id": 2,
+    "inquiry": Object {
+      "bathroomCount": 1,
+      "bedroomCount": 2,
+      "budget": null,
+      "categoryID": 3,
+      "locationIDs": Array [],
+      "object": Object {
+        "id": 1,
+        "type": "project",
+      },
+      "purpose": "for-sale",
+    },
+    "lastTask": null,
+    "market": "primary",
+    "side": "demand",
+    "status": Object {
+      "id": 1,
+      "title": "New",
+    },
+    "updatedAt": "2020-03-11T21:45:00.000Z",
+  },
+]
+`;
+
+exports[`GET /leads returns a list of leads for a verified user 2`] = `
+Object {
+  "cache-control": "private, no-store",
+  "connection": "close",
+  "content-encoding": "gzip",
+  "content-type": "application/json; charset=utf-8",
+  "etag": "W/\\"77e-YoVJkKkc0GqZT5Jux7CPp/im88A\\"",
+  "strict-transport-security": "max-age=15552000; includeSubDomains",
+  "transfer-encoding": "chunked",
+  "vary": "Accept-Encoding",
+  "x-content-type-options": "nosniff",
+  "x-dns-prefetch-control": "off",
+  "x-download-options": "noopen",
+  "x-frame-options": "SAMEORIGIN",
+  "x-xss-protection": "1; mode=block",
+}
+`;
+
+exports[`POST /leads allows creating a new lead and returns 201 1`] = `
+Object {
+  "classification": "moderate",
+  "clientID": 1,
+  "createdAt": "2020-03-28T14:12:00.270Z",
+  "id": 1,
+  "inquiry": Object {
+    "bathroomCount": 2,
+    "bedroomCount": 3,
+    "budget": Object {
+      "amount": 5000,
+      "currency": "EUR",
+    },
+    "categoryID": 1,
+    "locationIDs": Array [
+      3,
+    ],
+    "object": Object {
+      "id": 1,
+      "type": "project",
+    },
+    "purpose": "for-sale",
+  },
+  "lastTask": null,
+  "market": "primary",
+  "side": "demand",
+  "status": Object {
+    "id": 1,
+    "title": "New",
+  },
+  "updatedAt": "2020-03-28T14:12:00.270Z",
+}
+`;
+
+exports[`POST /leads allows creating a new lead and returns 201 2`] = `
+Object {
+  "cache-control": "private, no-store",
+  "connection": "close",
+  "content-length": "388",
+  "content-type": "application/json; charset=utf-8",
+  "etag": "W/\\"184-02JPI6JAj+lSwZlFkM/OE3etbcY\\"",
+  "strict-transport-security": "max-age=15552000; includeSubDomains",
+  "vary": "Accept-Encoding",
+  "x-content-type-options": "nosniff",
+  "x-dns-prefetch-control": "off",
+  "x-download-options": "noopen",
+  "x-frame-options": "SAMEORIGIN",
+  "x-xss-protection": "1; mode=block",
+}
+`;
+
+exports[`POST /leads denies access to unauthenticated requests 1`] = `Object {}`;
+
+exports[`POST /leads denies access to unauthenticated requests 2`] = `
+Object {
+  "cache-control": "private, no-store",
+  "connection": "close",
+  "strict-transport-security": "max-age=15552000; includeSubDomains",
+  "transfer-encoding": "chunked",
+  "x-content-type-options": "nosniff",
+  "x-dns-prefetch-control": "off",
+  "x-download-options": "noopen",
+  "x-frame-options": "SAMEORIGIN",
+  "x-xss-protection": "1; mode=block",
+}
+`;
+
+exports[`POST /leads does not allow a invalid budget amount 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "inquiry.budget.amount",
+    },
+  ],
+}
+`;
+
+exports[`POST /leads does not allow a null budget amount 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "inquiry.budget.amount",
+    },
+  ],
+}
+`;
+
+exports[`POST /leads does not allow a null budget currency 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "inquiry.budget.currency",
+    },
+  ],
+}
+`;
+
+exports[`POST /leads does not allow an invalid budget 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "inquiry.budget.currency",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "inquiry.budget.currency",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "inquiry.budget.amount",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "inquiry.budget.amount",
+    },
+  ],
+}
+`;
+
+exports[`POST /leads does not allow an invalid budget currency 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "inquiry.budget.currency",
+    },
+  ],
+}
+`;
+
+exports[`POST /leads does not allow an invalid source 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "source",
+    },
+  ],
+}
+`;
+
+exports[`POST /leads does not allow invalid classification 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "classification",
+    },
+  ],
+}
+`;
+
+exports[`POST /leads does not allow invalid inquiry object type 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "inquiry.object.type",
+    },
+  ],
+}
+`;
+
+exports[`POST /leads does not allow invalid lead side 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "side",
+    },
+  ],
+}
+`;
+
+exports[`POST /leads does not allow invalid market 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "market",
+    },
+  ],
+}
+`;
+
+exports[`POST /leads does not allow invalid purpose 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "inquiry.purpose",
+    },
+  ],
+}
+`;
+
+exports[`POST /leads does not allow more than 80 for bathroom count 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "inquiry.bathroomCount",
+    },
+  ],
+}
+`;
+
+exports[`POST /leads does not allow more than 775 for bedroom count 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "inquiry.bedroomCount",
+    },
+  ],
+}
+`;
+
+exports[`POST /leads does not allow negative bathroom count 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "inquiry.bathroomCount",
+    },
+  ],
+}
+`;
+
+exports[`POST /leads does not allow negative bedroom count 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "inquiry.bedroomCount",
+    },
+  ],
+}
+`;
+
+exports[`POST /leads does not allow non-int bathroom count 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "inquiry.bathroomCount",
+    },
+  ],
+}
+`;
+
+exports[`POST /leads does not allow non-int bedroom count 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "inquiry.bedroomCount",
+    },
+  ],
+}
+`;
+
+exports[`POST /leads does not allow non-int category ID 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "inquiry.categoryID",
+    },
+  ],
+}
+`;
+
+exports[`POST /leads does not allow non-int client ID 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "clientID",
+    },
+  ],
+}
+`;
+
+exports[`POST /leads does not allow non-int inquiry object ID 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "inquiry.object.id",
+    },
+  ],
+}
+`;
+
+exports[`POST /leads does not allow non-int location ID's 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "inquiry.locationIDs[0]",
+    },
+  ],
+}
+`;
+
+exports[`POST /leads does not allow null client ID 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "clientID",
+    },
+  ],
+}
+`;
+
+exports[`POST /leads does not allow null inquiry object ID 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "inquiry.object.id",
+    },
+  ],
+}
+`;
+
+exports[`POST /leads does not allow null inquiry object type 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "inquiry.object.type",
+    },
+  ],
+}
+`;
+
+exports[`POST /leads does not allow null lead side 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "side",
+    },
+  ],
+}
+`;
+
+exports[`POST /leads does not allow null location ID's 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "inquiry.locationIDs",
+    },
+  ],
+}
+`;
+
+exports[`POST /leads does not allow null market 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "market",
+    },
+  ],
+}
+`;

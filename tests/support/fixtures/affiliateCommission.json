@@ -1,0 +1,177 @@
+[
+  {
+    "model": "AffiliateCommission",
+    "data": {
+      "id": 1,
+      "projectId": 4,
+      "affiliateTypeId": 1,
+      "propertyTypeId": 1,
+      "startDate": "2021-01-28T00:00:00+0000",
+      "endDate": "2022-01-27T00:00:00+0000",
+      "createdAt": "2021-01-20T19:46:15+0000",
+      "updatedAt": "2021-01-20T19:46:15+0000",
+      "createdBy": 1337,
+      "commissionType": "discount_model",
+      "downPayment": 30,
+      "sellingPrice": 91,
+      "soldUnitsMin": null,
+      "soldUnitsMax": null,
+      "commission": 3.5
+    }
+  },
+  {
+    "model": "AffiliateCommission",
+    "data": {
+      "id": 2,
+      "projectId": 1,
+      "affiliateTypeId": 1,
+      "propertyTypeId": 2,
+      "startDate": "2021-01-28T00:00:00+0000",
+      "endDate": "2022-01-27T00:00:00+0000",
+      "createdAt": "2021-01-20T19:46:15+0000",
+      "updatedAt": "2021-01-20T19:46:15+0000",
+      "createdBy": 1337,
+      "commissionType": "flat_commission",
+      "downPayment": 30,
+      "sellingPrice": 91,
+      "soldUnitsMin": null,
+      "soldUnitsMax": null,
+      "commission": 4.0,
+      "classifiedCredits": 0.9,
+      "additionalCommission": null,
+      "totalCommission": 4.9
+    }
+  },
+  {
+    "model": "AffiliateCommission",
+    "data": {
+      "id": 3,
+      "projectId": 4,
+      "affiliateTypeId": 1,
+      "propertyTypeId": 1,
+      "startDate": "2021-01-28T00:00:00+0000",
+      "endDate": "2022-01-27T00:00:00+0000",
+      "createdAt": "2021-01-20T19:47:15+0000",
+      "updatedAt": "2021-01-20T19:47:15+0000",
+      "createdBy": 1337,
+      "commissionType": "discount_model",
+      "downPayment": 30,
+      "sellingPrice": 93,
+      "soldUnitsMin": null,
+      "soldUnitsMax": null,
+      "commission": 4.0
+    }
+  },
+  {
+    "model": "AffiliateCommission",
+    "data": {
+      "id": 4,
+      "projectId": 1,
+      "affiliateTypeId": 1,
+      "propertyTypeId": 3,
+      "startDate": "2021-01-28T00:00:00+0000",
+      "endDate": "2022-01-27T00:00:00+0000",
+      "createdAt": "2021-01-20T19:48:15+0000",
+      "updatedAt": "2021-01-20T19:48:15+0000",
+      "createdBy": 1337,
+      "commissionType": "flat_commission",
+      "downPayment": 30,
+      "sellingPrice": 91,
+      "soldUnitsMin": null,
+      "soldUnitsMax": null,
+      "commission": 5.0,
+      "classifiedCredits": 0.8,
+      "additionalCommission": null,
+      "totalCommission": 5.8
+    }
+  },
+  {
+    "model": "AffiliateCommission",
+    "data": {
+      "id": 5,
+      "projectId": 1,
+      "affiliateTypeId": 1,
+      "propertyTypeId": 4,
+      "startDate": "2021-01-28T00:00:00+0000",
+      "endDate": "2022-01-27T00:00:00+0000",
+      "createdAt": "2021-01-20T19:49:15+0000",
+      "updatedAt": "2021-01-20T19:49:15+0000",
+      "createdBy": 1337,
+      "commissionType": "flat_commission",
+      "downPayment": 30,
+      "sellingPrice": 91,
+      "soldUnitsMin": null,
+      "soldUnitsMax": null,
+      "commission": 6.0,
+      "classifiedCredits": 1.2,
+      "additionalCommission": null,
+      "totalCommission": 7.2
+    }
+  },
+  {
+    "model": "AffiliateCommission",
+    "data": {
+      "id": 6,
+      "projectId": 1,
+      "affiliateTypeId": 1,
+      "propertyTypeId": 1,
+      "startDate": "2021-01-28T00:00:00+0000",
+      "endDate": "2022-01-27T00:00:00+0000",
+      "createdAt": "2021-01-20T19:50:15+0000",
+      "updatedAt": "2021-01-20T19:50:15+0000",
+      "createdBy": 1337,
+      "commissionType": "unit_sold",
+      "downPayment": 30,
+      "sellingPrice": 91,
+      "soldUnitsMin": 1,
+      "soldUnitsMax": 5,
+      "commission": 2.0
+    }
+  },
+  {
+    "model": "AffiliateCommission",
+    "data": {
+      "id": 7,
+      "projectId": 1,
+      "affiliateTypeId": 1,
+      "propertyTypeId": 1,
+      "inventoryType": "floor",
+      "inventorySizeFrom": 0,
+      "inventorySizeTo": 2,
+      "startDate": "2021-01-28T00:00:00+0000",
+      "endDate": "2022-01-27T00:00:00+0000",
+      "createdAt": "2021-01-20T19:51:15+0000",
+      "updatedAt": "2021-01-20T19:51:15+0000",
+      "createdBy": 1337,
+      "commissionType": "unit_sold",
+      "downPayment": 30,
+      "sellingPrice": 91,
+      "soldUnitsMin": 6,
+      "soldUnitsMax": 1000,
+      "commission": 3.5
+    }
+  },
+  {
+    "model": "AffiliateCommission",
+    "data": {
+      "id": 8,
+      "projectId": 1,
+      "affiliateTypeId": 1,
+      "propertyTypeId": 1,
+      "inventoryType": "floor",
+      "inventorySizeFrom": 3,
+      "inventorySizeTo": null,
+      "startDate": "2021-01-28T00:00:00+0000",
+      "endDate": "2022-01-27T00:00:00+0000",
+      "createdAt": "2021-01-20T19:51:15+0000",
+      "updatedAt": "2021-01-20T19:51:15+0000",
+      "createdBy": 1337,
+      "commissionType": "unit_sold",
+      "downPayment": 30,
+      "sellingPrice": 91,
+      "soldUnitsMin": 6,
+      "soldUnitsMax": 1000,
+      "commission": 3.0
+    }
+  }
+]

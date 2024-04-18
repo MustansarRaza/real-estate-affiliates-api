@@ -1,0 +1,1305 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GET /me denies access to unauthenticated requests 1`] = `Object {}`;
+
+exports[`GET /me denies access to unauthenticated requests 2`] = `
+Object {
+  "cache-control": "private, no-store",
+  "connection": "close",
+  "strict-transport-security": "max-age=15552000; includeSubDomains",
+  "transfer-encoding": "chunked",
+  "x-content-type-options": "nosniff",
+  "x-dns-prefetch-control": "off",
+  "x-download-options": "noopen",
+  "x-frame-options": "SAMEORIGIN",
+  "x-xss-protection": "1; mode=block",
+}
+`;
+
+exports[`GET /me returns 404 if no profile could be found for the user 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "message": "Current user is not an affiliate",
+      "name": "NotFound",
+    },
+  ],
+}
+`;
+
+exports[`GET /me returns the summary when the status is verified 1`] = `
+Array [
+  Object {
+    "affiliateID": 1,
+    "type": "bdm",
+    "user": Object {
+      "email": "henk@world.com",
+      "hasWhatsApp": true,
+      "id": 1,
+      "landLinePhoneNumber": "+922123569856",
+      "mobilePhoneNumber": "+923377178218",
+      "name": "Henk Jansen",
+    },
+  },
+  Object {
+    "affiliateID": 1,
+    "type": "coordinator",
+    "user": Object {
+      "email": "walt@disney.com",
+      "hasWhatsApp": false,
+      "id": 2,
+      "landLinePhoneNumber": null,
+      "mobilePhoneNumber": "+923377178218",
+      "name": "Walt Disney",
+    },
+  },
+]
+`;
+
+exports[`GET /me returns the summary when the status is verified 2`] = `
+Object {
+  "cache-control": "private, no-store",
+  "connection": "close",
+  "content-length": "920",
+  "content-type": "application/json; charset=utf-8",
+  "etag": "W/\\"398-zewpbBF1AyurBVZBW1BlLBTzFKU\\"",
+  "strict-transport-security": "max-age=15552000; includeSubDomains",
+  "vary": "Accept-Encoding",
+  "x-content-type-options": "nosniff",
+  "x-dns-prefetch-control": "off",
+  "x-download-options": "noopen",
+  "x-frame-options": "SAMEORIGIN",
+  "x-xss-protection": "1; mode=block",
+}
+`;
+
+exports[`POST /me allows creating a new user and returns 201 1`] = `
+Object {
+  "affiliate": null,
+  "affiliateVerificationStatus": Object {
+    "id": 1,
+    "status": "new",
+  },
+  "profile": Object {
+    "address": "Walstreet 23",
+    "affiliateType": "agency",
+    "businessName": "Disney",
+    "email": "walt@disney.com",
+    "familyName": "Disney",
+    "givenName": "Walt",
+    "govIDNumber": "1234512345671",
+    "govIDType": "NIC",
+    "landLinePhoneNumbers": Array [
+      "+922123569856",
+    ],
+    "locationID": 3,
+    "mobilePhoneNumbers": Array [
+      "+923377178218",
+    ],
+    "taxNumber": "12345678",
+    "termsAndConditionsVersion": "1.1.1",
+    "username": "walt@disney.com",
+  },
+  "ssoID": "test",
+  "status": "unverified",
+}
+`;
+
+exports[`POST /me allows creating a new user with device data [object Object] and returns 201 1`] = `
+Object {
+  "affiliate": null,
+  "affiliateVerificationStatus": Object {
+    "id": 1,
+    "status": "new",
+  },
+  "profile": Object {
+    "address": "Walstreet 23",
+    "affiliateType": "agency",
+    "businessName": "Disney",
+    "deviceType": "Mobile-Samsung s10",
+    "email": "walt@disney.com",
+    "familyName": "Disney",
+    "givenName": "Walt",
+    "govIDNumber": "1234512345671",
+    "govIDType": "NIC",
+    "landLinePhoneNumbers": Array [
+      "+922123569856",
+    ],
+    "locationID": 3,
+    "mobilePhoneNumbers": Array [
+      "+923377178218",
+    ],
+    "taxNumber": "12345678",
+    "termsAndConditionsVersion": "1.1.1",
+    "username": "walt@disney.com",
+  },
+  "ssoID": "test",
+  "status": "unverified",
+}
+`;
+
+exports[`POST /me allows creating a new user with device data null and returns 201 1`] = `
+Object {
+  "affiliate": null,
+  "affiliateVerificationStatus": Object {
+    "id": 1,
+    "status": "new",
+  },
+  "profile": Object {
+    "address": "Walstreet 23",
+    "affiliateType": "agency",
+    "businessName": "Disney",
+    "email": "walt@disney.com",
+    "familyName": "Disney",
+    "givenName": "Walt",
+    "govIDNumber": "1234512345671",
+    "govIDType": "NIC",
+    "landLinePhoneNumbers": Array [
+      "+922123569856",
+    ],
+    "locationID": 3,
+    "mobilePhoneNumbers": Array [
+      "+923377178218",
+    ],
+    "taxNumber": "12345678",
+    "termsAndConditionsVersion": "1.1.1",
+    "username": "walt@disney.com",
+  },
+  "ssoID": "test",
+  "status": "unverified",
+}
+`;
+
+exports[`POST /me allows creating a new user with device data undefined and returns 201 1`] = `
+Object {
+  "affiliate": null,
+  "affiliateVerificationStatus": Object {
+    "id": 1,
+    "status": "new",
+  },
+  "profile": Object {
+    "address": "Walstreet 23",
+    "affiliateType": "agency",
+    "businessName": "Disney",
+    "email": "walt@disney.com",
+    "familyName": "Disney",
+    "givenName": "Walt",
+    "govIDNumber": "1234512345671",
+    "govIDType": "NIC",
+    "landLinePhoneNumbers": Array [
+      "+922123569856",
+    ],
+    "locationID": 3,
+    "mobilePhoneNumbers": Array [
+      "+923377178218",
+    ],
+    "taxNumber": "12345678",
+    "termsAndConditionsVersion": "1.1.1",
+    "username": "walt@disney.com",
+  },
+  "ssoID": "test",
+  "status": "unverified",
+}
+`;
+
+exports[`POST /me does not allow     for address field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.address",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow     for affiliateType field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.affiliateType",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow     for businessName field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.businessName",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow     for email field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.email",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.email",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow     for familyName field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.familyName",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow     for givenName field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.givenName",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow     for govIDNumber field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.govIDNumber",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.govIDNumber",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.govIDNumber",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow     for govIDType field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.govIDType",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow     for locationID field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.locationID",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow     for taxNumber field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.taxNumber",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.taxNumber",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.taxNumber",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow  for address field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.address",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow  for affiliateType field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.affiliateType",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow  for businessName field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.businessName",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow  for email field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.email",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.email",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow  for familyName field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.familyName",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow  for givenName field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.givenName",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow  for govIDNumber field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.govIDNumber",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.govIDNumber",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.govIDNumber",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow  for govIDType field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.govIDType",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow  for locationID field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.locationID",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow  for password field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "credentials.password",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow  for platform field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.platform",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow  for taxNumber field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.taxNumber",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.taxNumber",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.taxNumber",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow 1.2 for locationID field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.locationID",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow 12 for affiliateType field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.affiliateType",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow 12 for email field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.email",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow 12 for govIDType field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.govIDType",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow 12345 for govIDNumber field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.govIDNumber",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow 12345a2345671 for govIDNumber field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.govIDNumber",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow 123456 for taxNumber field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.taxNumber",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow 1234567 for taxNumber field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.taxNumber",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow 1234567a for taxNumber field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.taxNumber",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow 123456789 for taxNumber field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.taxNumber",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow 123456789999 for govIDNumber field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.govIDNumber",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow 12345678913254 for govIDNumber field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.govIDNumber",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow bla for affiliateType field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.affiliateType",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow bla for email field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.email",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow bla for govIDType field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.govIDType",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow bla for locationID field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.locationID",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow blabla for platform field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.platform",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow more than one landline phone number 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.landLinePhoneNumbers",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow more than one mobile phone number 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.mobilePhoneNumbers",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow non-e.164 formatted landline phone numbers 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Please fill in the full phone number in standard format (e.g. +923456789101)",
+      "name": "InvalidRequestData",
+      "param": "profile.landLinePhoneNumbers[0]",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow non-e.164 formatted mobile phone numbers 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Please fill in the full phone number in standard format (e.g. +923456789101)",
+      "name": "InvalidRequestData",
+      "param": "profile.mobilePhoneNumbers[0]",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow null for address field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.address",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow null for affiliateType field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.affiliateType",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow null for email field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.email",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.email",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow null for familyName field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.familyName",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow null for givenName field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.givenName",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow null for govIDNumber field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.govIDNumber",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.govIDNumber",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.govIDNumber",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow null for govIDType field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.govIDType",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow null for locationID field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.locationID",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow null for password field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "credentials.password",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow te @ goo for email field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.email",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow undefined for address field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.address",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.address",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow undefined for affiliateType field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.affiliateType",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.affiliateType",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow undefined for email field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.email",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.email",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.email",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow undefined for familyName field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.familyName",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.familyName",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow undefined for givenName field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.givenName",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.givenName",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow undefined for govIDNumber field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.govIDNumber",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.govIDNumber",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.govIDNumber",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.govIDNumber",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow undefined for govIDType field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.govIDType",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.govIDType",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow undefined for locationID field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.locationID",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.locationID",
+    },
+  ],
+}
+`;
+
+exports[`POST /me does not allow undefined for password field 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "credentials.password",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "credentials.password",
+    },
+  ],
+}
+`;
+
+exports[`POST /me requires at least one mobile phone number 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.mobilePhoneNumbers",
+    },
+  ],
+}
+`;
+
+exports[`POST /me returns 409 if the user with the same email already exists 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "extra": Object {
+        "email": "test@test.com",
+      },
+      "message": "User with this e-mail or phone number already exists",
+      "name": "Conflict",
+    },
+  ],
+}
+`;
+
+exports[`POST /me returns 409 if the user with the same email already exists 2`] = `
+Object {
+  "cache-control": "private, no-store",
+  "connection": "close",
+  "content-length": "131",
+  "content-type": "application/json; charset=utf-8",
+  "etag": "W/\\"83-lb6OXbazrBcPe9REv3h4hiBdmZ4\\"",
+  "strict-transport-security": "max-age=15552000; includeSubDomains",
+  "vary": "Accept-Encoding",
+  "x-content-type-options": "nosniff",
+  "x-dns-prefetch-control": "off",
+  "x-download-options": "noopen",
+  "x-frame-options": "SAMEORIGIN",
+  "x-xss-protection": "1; mode=block",
+}
+`;
+
+exports[`POST /me returns 409 if the user with the same mobile phone number already exists 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "extra": Object {
+        "email": "test2@test.com",
+      },
+      "message": "User with this e-mail or phone number already exists",
+      "name": "Conflict",
+    },
+  ],
+}
+`;
+
+exports[`POST /me returns 409 if the user with the same mobile phone number already exists 2`] = `
+Object {
+  "cache-control": "private, no-store",
+  "connection": "close",
+  "content-length": "132",
+  "content-type": "application/json; charset=utf-8",
+  "etag": "W/\\"84-QAAYJ2vBaHE57wj1bGZCdXedbjI\\"",
+  "strict-transport-security": "max-age=15552000; includeSubDomains",
+  "vary": "Accept-Encoding",
+  "x-content-type-options": "nosniff",
+  "x-dns-prefetch-control": "off",
+  "x-download-options": "noopen",
+  "x-frame-options": "SAMEORIGIN",
+  "x-xss-protection": "1; mode=block",
+}
+`;
+
+exports[`POST /me validates  as invalid 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.source",
+    },
+  ],
+}
+`;
+
+exports[`POST /me validates  as invalid sourceReferralPhoneNumber 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.sourceReferralPhoneNumber",
+    },
+    Object {
+      "location": "body",
+      "message": "Please fill in the full phone number in standard format (e.g. +923456789101)",
+      "name": "InvalidRequestData",
+      "param": "profile.sourceReferralPhoneNumber",
+    },
+  ],
+}
+`;
+
+exports[`POST /me validates 03377178218 as invalid sourceReferralPhoneNumber 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Please fill in the full phone number in standard format (e.g. +923456789101)",
+      "name": "InvalidRequestData",
+      "param": "profile.sourceReferralPhoneNumber",
+    },
+  ],
+}
+`;
+
+exports[`POST /me validates def not a number as invalid sourceReferralPhoneNumber 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Please fill in the full phone number in standard format (e.g. +923456789101)",
+      "name": "InvalidRequestData",
+      "param": "profile.sourceReferralPhoneNumber",
+    },
+  ],
+}
+`;
+
+exports[`POST /me validates invalidSource as invalid 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "profile.source",
+    },
+  ],
+}
+`;

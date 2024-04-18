@@ -1,0 +1,66 @@
+[
+  {
+    "model": "ListingStatus",
+    "data": {
+      "id": 1,
+      "name": "Available",
+      "key": "available"
+    }
+  },
+  {
+    "model": "ListingStatus",
+    "data": {
+      "id": 2,
+      "name": "Sold/Closed Won",
+      "key": "sold_closed_won"
+    }
+  },
+  {
+    "model": "ListingStatus",
+    "data": {
+      "id": 3,
+      "name": "Token Payment",
+      "key": "token_payment"
+    }
+  },
+  {
+    "model": "ListingStatus",
+    "data": {
+      "id": 5,
+      "name": "Reserved/Hold",
+      "key": "reserved_hold"
+    }
+  },
+  {
+    "model": "ListingStatus",
+    "data": {
+      "id": 6,
+      "name": "Reserved Extension",
+      "key": "reserved_extension"
+    }
+  },
+  {
+    "model": "ListingStatus",
+    "data": {
+      "id": 7,
+      "name": "Sold",
+      "key": "sold"
+    }
+  },
+  {
+    "model": "ListingStatus",
+    "data": {
+      "id": 8,
+      "name": "Hold",
+      "key": "hold"
+    }
+  },
+  {
+    "model": "ListingStatus",
+    "data": {
+      "id": 9,
+      "name": "Partial Down Payment",
+      "key": "partial_down_payment"
+    }
+  }
+]

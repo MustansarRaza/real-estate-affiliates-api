@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["src/**/*", "types/*", "languages/*.json"],
+  "compilerOptions": {
+    "noEmit": false,
+    "baseUrl": "src/",
+    "outDir": "dist/",
+    "sourceMap": true,
+    "inlineSources": true,
+    "sourceRoot": "/",
+    "paths": {
+      "affiliates-api/*": ["./*"]
+    },
+    "resolveJsonModule": true
+  }
+}

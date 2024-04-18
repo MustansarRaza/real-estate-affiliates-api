@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocationsService getWithHierarchy gets a location with hierarchy data 1`] = `
+Object {
+  "id": 2,
+  "iso31662Code": undefined,
+  "level1Location": Object {
+    "id": 1,
+    "iso31662Code": undefined,
+    "name": "Pakistan",
+    "parentID": null,
+    "popularityIndex": undefined,
+    "typeID": 0,
+  },
+  "name": "Punjab",
+  "parentID": 1,
+  "popularityIndex": undefined,
+  "typeID": 1,
+}
+`;

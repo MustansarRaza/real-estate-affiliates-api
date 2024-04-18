@@ -1,0 +1,92 @@
+[
+  {
+    "model": "ContractListing",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 1,
+      "contractId": 1,
+      "objectType": "listing",
+      "objectId": 6,
+      "commissionType": "percentage",
+      "commissionValue": 2,
+      "isDeleted": 0,
+      "createdAt": "2021-04-05T00:00:00+0000",
+      "updatedAt": "2021-04-05T00:00:00+0000"
+    }
+  },
+  {
+    "model": "ContractListing",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 2,
+      "contractId": 2,
+      "objectType": "listing",
+      "objectId": 13,
+      "commissionType": "percentage",
+      "commissionValue": 2,
+      "isDeleted": 0,
+      "createdAt": "2021-04-05T00:00:00+0000",
+      "updatedAt": "2021-04-05T00:00:00+0000"
+    }
+  },
+  {
+    "model": "ContractListing",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 3,
+      "contractId": 3,
+      "objectType": "listing",
+      "objectId": 14,
+      "commissionType": "percentage",
+      "commissionValue": 2,
+      "isDeleted": 0,
+      "createdAt": "2021-04-05T00:00:00+0000",
+      "updatedAt": "2021-04-05T00:00:00+0000"
+    }
+  },
+  {
+    "model": "ContractListing",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 4,
+      "contractId": 4,
+      "objectType": "listing",
+      "objectId": 15,
+      "commissionType": "percentage",
+      "commissionValue": 2,
+      "isDeleted": 0,
+      "createdAt": "2021-04-05T00:00:00+0000",
+      "updatedAt": "2021-04-05T00:00:00+0000"
+    }
+  },
+  {
+    "model": "ContractListing",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 5,
+      "contractId": 5,
+      "objectType": "listing",
+      "objectId": 16,
+      "commissionType": "percentage",
+      "commissionValue": 5,
+      "isDeleted": 1,
+      "createdAt": "2021-04-05T00:00:00+0000",
+      "updatedAt": "2021-04-05T00:00:00+0000"
+    }
+  }
+]

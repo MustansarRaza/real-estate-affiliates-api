@@ -1,0 +1,8 @@
+{
+  "NOT_FOUND_ERROR": {
+    "NO_SUPPORT_USER_FOR_AUTO_SHARE": "No support user found for auto share"
+  },
+  "GENERAL_ERROR": {
+    "MISSING_ATTRIBUTE": "Missing Required Attributes"
+  }
+}

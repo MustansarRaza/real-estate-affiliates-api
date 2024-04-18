@@ -1,0 +1,147 @@
+[
+  {
+    "model": "Lead",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 1,
+      "state": "on",
+      "source": "Propforce.com",
+      "userID": 1,
+      "clientID": 1,
+      "agencyID": 1337,
+      "statusID": 9,
+      "side": "demand",
+      "market": "primary",
+      "classificationID": 1,
+      "inquiryObjectType": "project",
+      "inquiryObjectID": 1,
+      "inquiryPurposeID": 2,
+      "inquiryCategoryID": 4,
+      "inquiryBudgetAmount": null,
+      "inquiryBudgetCurrency": null,
+      "inquiryBedroomCount": 2,
+      "inquiryBathroomCount": 1,
+      "updatedAt": "2020-03-12T11:21:00+0000",
+      "createdAt": "2020-03-11T09:19:40+0000"
+    }
+  },
+  {
+    "model": "Lead",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 2,
+      "state": "on",
+      "source": "NotPropForce",
+      "userID": 1,
+      "clientID": 1,
+      "agencyID": 1337,
+      "statusID": 1,
+      "side": "demand",
+      "market": "primary",
+      "classificationID": 1,
+      "inquiryObjectType": "project",
+      "inquiryObjectID": 1,
+      "inquiryPurposeID": 2,
+      "inquiryCategoryID": 3,
+      "inquiryBudgetAmount": null,
+      "inquiryBudgetCurrency": null,
+      "inquiryBedroomCount": 2,
+      "inquiryBathroomCount": 1,
+      "updatedAt": "2020-03-11T21:45:00+0000",
+      "createdAt": "2020-03-10T09:19:40+0000"
+    }
+  },
+  {
+    "model": "Lead",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 3,
+      "state": "on",
+      "source": "Propforce.com",
+      "userID": 1,
+      "clientID": 1,
+      "agencyID": 1337,
+      "statusID": 18,
+      "side": "demand",
+      "market": "primary",
+      "classificationID": 3,
+      "inquiryObjectType": "project",
+      "inquiryObjectID": 3,
+      "inquiryPurposeID": 1,
+      "inquiryCategoryID": 2,
+      "inquiryBudgetAmount": 500000,
+      "inquiryBudgetCurrency": "PKR",
+      "inquiryBedroomCount": 3,
+      "inquiryBathroomCount": null,
+      "updatedAt": "2020-03-13T11:20:00+0000",
+      "createdAt": "2020-03-13T11:20:00+0000"
+    }
+  },
+  {
+    "model": "Lead",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 4,
+      "state": "on",
+      "source": "Propforce.com",
+      "userID": 2,
+      "clientID": 2,
+      "agencyID": 1337,
+      "statusID": 18,
+      "side": "demand",
+      "market": "primary",
+      "classificationID": 1,
+      "inquiryObjectType": "project",
+      "inquiryObjectID": 22,
+      "inquiryPurposeID": 2,
+      "inquiryCategoryID": 1,
+      "inquiryBudgetAmount": 900000,
+      "inquiryBudgetCurrency": "PKR",
+      "inquiryBedroomCount": 3,
+      "inquiryBathroomCount": null,
+      "updatedAt": "2020-03-13T11:20:00+0000",
+      "createdAt": "2020-03-13T11:20:00+0000"
+    }
+  },
+  {
+    "model": "Lead",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 5,
+      "state": "on",
+      "source": "Propforce.com",
+      "userID": 1,
+      "clientID": 1,
+      "agencyID": 1337,
+      "statusID": 6,
+      "side": "demand",
+      "market": "primary",
+      "classificationID": 1,
+      "inquiryObjectType": "project",
+      "inquiryObjectID": 1,
+      "inquiryPurposeID": 2,
+      "inquiryCategoryID": 4,
+      "inquiryBudgetAmount": null,
+      "inquiryBudgetCurrency": null,
+      "inquiryBedroomCount": 2,
+      "inquiryBathroomCount": 1,
+      "updatedAt": "2020-04-10T11:21:00+0000",
+      "createdAt": "2020-03-11T09:19:40+0000"
+    }
+  }
+]

@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GET /clients denies access to unauthenticated requests 1`] = `Object {}`;
+
+exports[`GET /clients denies access to unauthenticated requests 2`] = `
+Object {
+  "cache-control": "private, no-store",
+  "connection": "close",
+  "strict-transport-security": "max-age=15552000; includeSubDomains",
+  "transfer-encoding": "chunked",
+  "x-content-type-options": "nosniff",
+  "x-dns-prefetch-control": "off",
+  "x-download-options": "noopen",
+  "x-frame-options": "SAMEORIGIN",
+  "x-xss-protection": "1; mode=block",
+}
+`;
+
+exports[`GET /clients returns a list of clients for a verified user 1`] = `
+Array [
+  Object {
+    "address": "Numa Street 23",
+    "comment": "hello",
+    "createdAt": "2020-03-11T09:19:40.000Z",
+    "email": "numa@numa.com",
+    "id": 1,
+    "locationID": null,
+    "name": "Numa Numa",
+    "phoneNumbers": Array [
+      Object {
+        "id": 1,
+        "value": "+971509779657",
+      },
+      Object {
+        "id": 2,
+        "value": "+923212473743",
+      },
+    ],
+    "updatedAt": "2020-03-12T11:21:00.000Z",
+  },
+]
+`;
+
+exports[`GET /clients returns a list of clients for a verified user 2`] = `
+Object {
+  "cache-control": "private, no-store",
+  "connection": "close",
+  "content-length": "277",
+  "content-type": "application/json; charset=utf-8",
+  "etag": "W/\\"115-qbVR32pFass/390t8Xj6dEdmFu8\\"",
+  "strict-transport-security": "max-age=15552000; includeSubDomains",
+  "vary": "Accept-Encoding",
+  "x-content-type-options": "nosniff",
+  "x-dns-prefetch-control": "off",
+  "x-download-options": "noopen",
+  "x-frame-options": "SAMEORIGIN",
+  "x-xss-protection": "1; mode=block",
+}
+`;
+
+exports[`POST /clients allows creating a new client and returns 201 1`] = `
+Object {
+  "address": "My great street 123",
+  "comment": "this is me",
+  "createdAt": "2020-03-28T14:12:00.270Z",
+  "email": "walt@disney.com",
+  "id": 1,
+  "locationID": 3,
+  "name": "Walt Disney",
+  "phoneNumbers": Array [
+    Object {
+      "id": 1,
+      "value": "+923214444444",
+    },
+  ],
+  "updatedAt": "2020-03-28T14:12:00.270Z",
+}
+`;
+
+exports[`POST /clients allows creating a new client and returns 201 2`] = `
+Object {
+  "cache-control": "private, no-store",
+  "connection": "close",
+  "content-length": "253",
+  "content-type": "application/json; charset=utf-8",
+  "etag": "W/\\"fd-kZ9LOoDtdiqWhrAzlEAfCfoNC2Y\\"",
+  "strict-transport-security": "max-age=15552000; includeSubDomains",
+  "vary": "Accept-Encoding",
+  "x-content-type-options": "nosniff",
+  "x-dns-prefetch-control": "off",
+  "x-download-options": "noopen",
+  "x-frame-options": "SAMEORIGIN",
+  "x-xss-protection": "1; mode=block",
+}
+`;
+
+exports[`POST /clients denies access to unauthenticated requests 1`] = `Object {}`;
+
+exports[`POST /clients denies access to unauthenticated requests 2`] = `
+Object {
+  "cache-control": "private, no-store",
+  "connection": "close",
+  "strict-transport-security": "max-age=15552000; includeSubDomains",
+  "transfer-encoding": "chunked",
+  "x-content-type-options": "nosniff",
+  "x-dns-prefetch-control": "off",
+  "x-download-options": "noopen",
+  "x-frame-options": "SAMEORIGIN",
+  "x-xss-protection": "1; mode=block",
+}
+`;
+
+exports[`POST /clients does not allow an invalid source 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "source",
+    },
+  ],
+}
+`;
+
+exports[`POST /clients does not allow creating duplicate clients and returns 409 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "extra": Object {
+        "email": "walt@disney.com",
+        "name": "Walt Disney",
+        "phoneNumber": "+923214444444",
+      },
+      "message": "Client already exists",
+      "name": "Conflict",
+    },
+  ],
+}
+`;
+
+exports[`POST /clients does not allow empty/whitespace address 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "address",
+    },
+  ],
+}
+`;
+
+exports[`POST /clients does not allow empty/whitespace comment 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "comment",
+    },
+  ],
+}
+`;
+
+exports[`POST /clients does not allow empty/whitespace for phone number values 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "phoneNumbers[0].value",
+    },
+    Object {
+      "location": "body",
+      "message": "Please fill in the full phone number in standard format (e.g. +923456789101)",
+      "name": "InvalidRequestData",
+      "param": "phoneNumbers[0].value",
+    },
+  ],
+}
+`;
+
+exports[`POST /clients does not allow empty/whitespace name 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "name",
+    },
+  ],
+}
+`;
+
+exports[`POST /clients does not allow invalid e-mail 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "email",
+    },
+  ],
+}
+`;
+
+exports[`POST /clients does not allow null email 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "email",
+    },
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "email",
+    },
+  ],
+}
+`;
+
+exports[`POST /clients does not allow null for phone number values 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "phoneNumbers[0].value",
+    },
+    Object {
+      "location": "body",
+      "message": "Please fill in the full phone number in standard format (e.g. +923456789101)",
+      "name": "InvalidRequestData",
+      "param": "phoneNumbers[0].value",
+    },
+  ],
+}
+`;
+
+exports[`POST /clients does not allow null for phone numbers list 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "phoneNumbers",
+    },
+  ],
+}
+`;
+
+exports[`POST /clients does not allow null name 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "name",
+    },
+  ],
+}
+`;
+
+exports[`POST /clients only allows integers for location ID 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "locationID",
+    },
+  ],
+}
+`;
+
+exports[`POST /clients requires at least one phone number 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "body",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "phoneNumbers",
+    },
+  ],
+}
+`;

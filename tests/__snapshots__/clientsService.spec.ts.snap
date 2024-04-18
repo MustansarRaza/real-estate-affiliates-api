@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ClientsService create does not allow creating clients with an invalid location ID 1`] = `
+Object {
+  "extra": Object {
+    "locationID": 9999,
+  },
+  "message": "Cannot find location or location's country",
+  "name": "BadRequest",
+  "originalError": undefined,
+  "statusCode": 400,
+}
+`;
+
+exports[`ClientsService create does not allow creating clients with the same cell number 1`] = `
+Object {
+  "extra": Object {
+    "email": "walt@disney.com",
+    "name": "Walt Disney",
+    "phoneNumber": "+923214444444",
+  },
+  "message": "Client already exists",
+  "name": "Conflict",
+  "originalError": undefined,
+  "statusCode": 409,
+}
+`;
+
+exports[`ClientsService create does not allow creating clients with the same email address 1`] = `
+Object {
+  "extra": Object {
+    "email": "cookies@monster.com",
+    "name": "Walt Disney",
+    "phoneNumber": "+923214444444",
+  },
+  "message": "Client already exists",
+  "name": "Conflict",
+  "originalError": undefined,
+  "statusCode": 409,
+}
+`;
+
+exports[`ClientsService create does not allow creating clients without having an owner 1`] = `
+Object {
+  "extra": Object {
+    "ssoID": "4255c2ae-3f11-4a26-a401-3981c8845df3",
+  },
+  "message": "Current user has no owner",
+  "name": "BadRequest",
+  "originalError": undefined,
+  "statusCode": 400,
+}
+`;
+
+exports[`ClientsService find raises an error if an invalid number is specified 1`] = `
+Object {
+  "extra": Object {},
+  "message": "ab is not a valid phone number",
+  "name": "BadRequest",
+  "originalError": undefined,
+  "statusCode": 400,
+}
+`;

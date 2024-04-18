@@ -1,0 +1,166 @@
+[
+  {
+    "model": "Project",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 1,
+      "externalID": 1,
+      "slug": "project-1",
+      "status": "on",
+      "name": "Project 1",
+      "description": "Amazing project that is enabled and available for affiliates.",
+      "address": "Good Street 1",
+      "agencyID": 1337,
+      "locationID": 1,
+      "url": "https://www.zameen.com/new-projects/project-1.html",
+      "commissionPercentage": 2.5,
+      "affiliateVisibility": 1,
+      "createdAt": "2020-03-10T09:19:40+0000",
+      "updatedAt": "2020-03-11T21:45:00+0000"
+    }
+  },
+  {
+    "model": "Project",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 2,
+      "externalID": 2,
+      "slug": "project-2",
+      "status": "on",
+      "name": "Project 2",
+      "description": "Amazing project disabled for affiliates.",
+      "address": "Good Street 2",
+      "agencyID": 1337,
+      "locationID": 1,
+      "url": "https://www.zameen.com/new-projects/project-2.html",
+      "commissionPercentage": null,
+      "affiliateVisibility": 0,
+      "createdAt": "2020-03-10T09:19:40+0000",
+      "updatedAt": "2020-03-11T21:45:00+0000"
+    }
+  },
+  {
+    "model": "Project",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 3,
+      "externalID": 3,
+      "slug": "project-3",
+      "status": "off",
+      "name": "Project 3",
+      "description": "Amazing new project that is disabled.",
+      "address": "Good Street 3",
+      "agencyID": 1337,
+      "locationID": 1,
+      "url": "https://www.zameen.com/new-projects/project-3.html",
+      "commissionPercentage": null,
+      "affiliateVisibility": 1,
+      "createdAt": "2020-03-10T09:19:40+0000",
+      "updatedAt": "2020-03-11T21:45:00+0000"
+    }
+  },
+  {
+    "model": "Project",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 4,
+      "externalID": 4,
+      "slug": "project-4",
+      "status": "on",
+      "name": "Project 4",
+      "description": "Great project that is enabled and for affiliates.",
+      "address": "Good Street 4",
+      "agencyID": 1337,
+      "locationID": 1,
+      "url": "https://www.zameen.com/new-projects/project-4.html",
+      "commissionPercentage": null,
+      "affiliateVisibility": 1,
+      "createdAt": "2020-03-10T09:19:40+0000",
+      "updatedAt": "2020-03-11T21:45:00+0000"
+    }
+  },
+  {
+    "model": "Project",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 5,
+      "externalID": 5,
+      "slug": "project-5",
+      "status": "on",
+      "name": "Project 5",
+      "description": "Great project that is enabled and for affiliates.",
+      "address": "Good Street 5",
+      "addressID": 1,
+      "agencyID": 483,
+      "locationID": 1,
+      "url": "https://www.zameen.com/new-projects/project-5.html",
+      "commissionPercentage": null,
+      "affiliateVisibility": 1,
+      "createdAt": "2020-03-10T09:19:40+0000",
+      "updatedAt": "2020-03-11T21:45:00+0000"
+    }
+  },
+  {
+    "model": "Project",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 1337,
+      "externalID": 1337,
+      "slug": "project-1337",
+      "status": "on",
+      "name": "Project 1337",
+      "description": "Great project that is enabled and for affiliates.",
+      "addressID": 3,
+      "address": "Good Street 1337",
+      "agencyID": 1337,
+      "locationID": 50,
+      "url": "https://www.zameen.com/new-projects/project-1337.html",
+      "commissionPercentage": null,
+      "affiliateVisibility": 1,
+      "createdAt": "2020-03-10T09:19:40+0000",
+      "updatedAt": "2020-03-11T21:45:00+0000"
+    }
+  },
+  {
+    "model": "Project",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 7331,
+      "externalID": 7331,
+      "slug": "project-7331",
+      "status": "on",
+      "name": "Project 7331",
+      "description": "Great project that is enabled and for affiliates.",
+      "address": "Good Street 7331",
+      "addressID": 1,
+      "agencyID": 1337,
+      "locationID": null,
+      "url": "https://www.zameen.com/new-projects/project-7331.html",
+      "commissionPercentage": null,
+      "affiliateVisibility": 1,
+      "createdAt": "2020-03-10T09:19:40+0000",
+      "updatedAt": "2020-03-11T21:45:00+0000"
+    }
+  }
+]

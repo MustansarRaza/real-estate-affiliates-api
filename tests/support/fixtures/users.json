@@ -1,0 +1,25 @@
+[
+  {
+    "model": "User",
+    "data": {
+      "id": 1,
+      "name": "Henk Jansen",
+      "email": "henk@world.com",
+      "designationId": 1,
+      "mobilePhoneNumber": "+923377178218",
+      "landLinePhoneNumber": "+922123569856",
+      "hasWhatsApp": true
+    }
+  },
+  {
+    "model": "User",
+    "data": {
+      "id": 2,
+      "name": "Walt Disney",
+      "email": "walt@disney.com",
+      "mobilePhoneNumber": "+923377178218",
+      "landLinePhoneNumber": null,
+      "hasWhatsApp": false
+    }
+  }
+]

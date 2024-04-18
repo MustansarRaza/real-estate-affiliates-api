@@ -1,0 +1,10 @@
+[
+  {
+    "model": "Affiliate",
+    "data": {
+      "id": 1,
+      "typeID": 1,
+      "agencyID": "1337"
+    }
+  }
+]

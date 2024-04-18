@@ -1,0 +1,53 @@
+[
+  {
+    "model": "Client",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 1,
+      "agencyID": 1337,
+      "statusID": 0,
+      "typeID": null,
+      "accessID": 0,
+      "name": "Numa Numa",
+      "email": "numa@numa.com",
+      "address": "Numa Street 23",
+      "countryID": null,
+      "locationID": null,
+      "phoneNumber": "+923008545261",
+      "comment": "hello",
+      "referralType": "affiliate",
+      "referralID": 1,
+      "userID": 1,
+      "updatedAt": "2020-03-12T11:21:00+0000",
+      "createdAt": "2020-03-11T09:19:40+0000"
+    }
+  },
+  {
+    "model": "Client",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 2,
+      "agencyID": 1337,
+      "statusID": 0,
+      "typeID": null,
+      "accessID": 0,
+      "name": "King Arthur",
+      "email": "king@arthur.com",
+      "address": "King Street 42",
+      "countryID": null,
+      "locationID": null,
+      "phoneNumber": "+923859251697",
+      "comment": null,
+      "referralType": "direct",
+      "referralID": null,
+      "updatedAt": "2020-03-13T11:20:00+0000",
+      "createdAt": "2020-03-13T11:20:00+0000"
+    }
+  }
+]

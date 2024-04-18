@@ -1,0 +1,329 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfileService create can create a new profile with device data 1`] = `
+Object {
+  "address": "Walstreet 23",
+  "affiliateType": 1,
+  "affiliateTypeTitle": "Agency",
+  "businessAdress": "Walstreet 23",
+  "businessName": "Disney",
+  "city": "Lahore",
+  "cityId": "3",
+  "country": "Pakistan",
+  "countryId": "1",
+  "email": "walt@disney.com",
+  "firstName": "Walt",
+  "idNumber": "2382738923",
+  "idType": "NIC",
+  "lastName": "Disney",
+  "mobile": "+923377178218",
+  "name": "Walt Disney",
+  "ntn": "2349231292",
+  "phone": "+922123569856",
+  "platformId": 3,
+  "sourceReferralName": null,
+  "sourceReferralPhoneNumber": null,
+}
+`;
+
+exports[`ProfileService create can create a new profile with device data 2`] = `
+Object {
+  "dateAndTime": "2020-12-17 14:36:06",
+  "deviceType": "Mobile-Samsung s10",
+  "ipAddress": "211.208.0.11",
+  "macAddress": "00:A0:C9:14:C8:29",
+  "osVersion": "Android-10",
+}
+`;
+
+exports[`ProfileService create can create a new profile without device data 1`] = `
+Object {
+  "address": "Walstreet 23",
+  "affiliateType": 1,
+  "affiliateTypeTitle": "Agency",
+  "businessAdress": "Walstreet 23",
+  "businessName": "Disney",
+  "city": "Lahore",
+  "cityId": "3",
+  "country": "Pakistan",
+  "countryId": "1",
+  "email": "walt@disney.com",
+  "firstName": "Walt",
+  "idNumber": "2382738923",
+  "idType": "NIC",
+  "lastName": "Disney",
+  "mobile": "+923377178218",
+  "name": "Walt Disney",
+  "ntn": "2349231292",
+  "phone": "+922123569856",
+  "platformId": 3,
+  "sourceReferralName": null,
+  "sourceReferralPhoneNumber": null,
+}
+`;
+
+exports[`ProfileService create throws an error when a location ID for which there is no country is specified 1`] = `
+Object {
+  "extra": Object {
+    "locationID": 3,
+  },
+  "message": "Cannot find location",
+  "name": "BadRequest",
+  "originalError": undefined,
+  "statusCode": 400,
+}
+`;
+
+exports[`ProfileService create throws an error when an invalid location ID is specified 1`] = `
+Object {
+  "extra": Object {
+    "locationID": 1234,
+  },
+  "message": "Cannot find location",
+  "name": "BadRequest",
+  "originalError": undefined,
+  "statusCode": 400,
+}
+`;
+
+exports[`ProfileService find throws an error if the contact data is missing email, firstName and lastName 1`] = `
+Object {
+  "extra": Object {
+    "contactDataType": "object",
+    "potentialAffiliateID": 1,
+  },
+  "message": "Current user is a broken affiliate",
+  "name": "WrongSetup",
+  "originalError": undefined,
+  "statusCode": 500,
+}
+`;
+
+exports[`ProfileService find throws an error if the contact data is not a JSON object 1`] = `
+Object {
+  "extra": Object {
+    "contactDataType": "string",
+    "potentialAffiliateID": 1,
+  },
+  "message": "Current user is a broken affiliate",
+  "name": "WrongSetup",
+  "originalError": undefined,
+  "statusCode": 500,
+}
+`;
+
+exports[`ProfileService find throws an error if the device data is missing any of the mandatory field 1`] = `
+Object {
+  "extra": Object {
+    "brokenDeviceData": "{}",
+    "potentialAffiliateID": 1,
+  },
+  "message": "missing device_type, os_version, ip_address, mac_address in the passed Device Data",
+  "name": "WrongSetup",
+  "originalError": undefined,
+  "statusCode": 500,
+}
+`;
+
+exports[`ProfileService find throws an error if the device data is missing any of the mandatory field 2`] = `
+Object {
+  "extra": Object {
+    "brokenDeviceData": "{\\"ipAddress\\":\\"211.208.0.11\\",\\"macAddress\\":\\"00:A0:C9:14:C8:29\\",\\"osVersion\\":\\"Android-10\\"}",
+    "potentialAffiliateID": 1,
+  },
+  "message": "missing device_type in the passed Device Data",
+  "name": "WrongSetup",
+  "originalError": undefined,
+  "statusCode": 500,
+}
+`;
+
+exports[`ProfileService find throws an error if the device data is missing any of the mandatory field 3`] = `
+Object {
+  "extra": Object {
+    "brokenDeviceData": "{\\"deviceType\\":\\"Mobile-Samsung s10\\",\\"macAddress\\":\\"00:A0:C9:14:C8:29\\",\\"osVersion\\":\\"Android-10\\"}",
+    "potentialAffiliateID": 1,
+  },
+  "message": "missing ip_address in the passed Device Data",
+  "name": "WrongSetup",
+  "originalError": undefined,
+  "statusCode": 500,
+}
+`;
+
+exports[`ProfileService find throws an error if the device data is missing any of the mandatory field 4`] = `
+Object {
+  "extra": Object {
+    "brokenDeviceData": "{\\"deviceType\\":\\"Mobile-Samsung s10\\",\\"ipAddress\\":\\"211.208.0.11\\",\\"osVersion\\":\\"Android-10\\"}",
+    "potentialAffiliateID": 1,
+  },
+  "message": "missing mac_address in the passed Device Data",
+  "name": "WrongSetup",
+  "originalError": undefined,
+  "statusCode": 500,
+}
+`;
+
+exports[`ProfileService find throws an error if the device data is missing any of the mandatory field 5`] = `
+Object {
+  "extra": Object {
+    "brokenDeviceData": "{\\"deviceType\\":\\"Mobile-Samsung s10\\",\\"ipAddress\\":\\"211.208.0.11\\",\\"macAddress\\":\\"00:A0:C9:14:C8:29\\"}",
+    "potentialAffiliateID": 1,
+  },
+  "message": "missing os_version in the passed Device Data",
+  "name": "WrongSetup",
+  "originalError": undefined,
+  "statusCode": 500,
+}
+`;
+
+exports[`ProfileService find throws an error if the device data is not a JSON object 1`] = `
+Object {
+  "extra": Object {
+    "brokenDeviceData": "\\"test\\"",
+    "potentialAffiliateID": 1,
+  },
+  "message": "missing device_type, os_version, ip_address, mac_address in the passed Device Data",
+  "name": "WrongSetup",
+  "originalError": undefined,
+  "statusCode": 500,
+}
+`;
+
+exports[`ProfileService find throws an error if there is no contact data 1`] = `
+Object {
+  "extra": Object {
+    "potentialAffiliateID": 1,
+  },
+  "message": "Current user does not have contact data",
+  "name": "WrongSetup",
+  "originalError": undefined,
+  "statusCode": 500,
+}
+`;
+
+exports[`ProfileService get throws an error if the contact data is missing email, firstName and lastName 1`] = `
+Object {
+  "extra": Object {
+    "contactDataType": "object",
+    "potentialAffiliateID": 1,
+  },
+  "message": "Current user is a broken affiliate",
+  "name": "WrongSetup",
+  "originalError": undefined,
+  "statusCode": 500,
+}
+`;
+
+exports[`ProfileService get throws an error if the contact data is not a JSON object 1`] = `
+Object {
+  "extra": Object {
+    "contactDataType": "string",
+    "potentialAffiliateID": 1,
+  },
+  "message": "Current user is a broken affiliate",
+  "name": "WrongSetup",
+  "originalError": undefined,
+  "statusCode": 500,
+}
+`;
+
+exports[`ProfileService get throws an error if the device data is missing any of the mandatory field 1`] = `
+Object {
+  "extra": Object {
+    "brokenDeviceData": "{}",
+    "potentialAffiliateID": 1,
+  },
+  "message": "missing device_type, os_version, ip_address, mac_address in the passed Device Data",
+  "name": "WrongSetup",
+  "originalError": undefined,
+  "statusCode": 500,
+}
+`;
+
+exports[`ProfileService get throws an error if the device data is missing any of the mandatory field 2`] = `
+Object {
+  "extra": Object {
+    "brokenDeviceData": "{\\"ipAddress\\":\\"211.208.0.11\\",\\"macAddress\\":\\"00:A0:C9:14:C8:29\\",\\"osVersion\\":\\"Android-10\\"}",
+    "potentialAffiliateID": 1,
+  },
+  "message": "missing device_type in the passed Device Data",
+  "name": "WrongSetup",
+  "originalError": undefined,
+  "statusCode": 500,
+}
+`;
+
+exports[`ProfileService get throws an error if the device data is missing any of the mandatory field 3`] = `
+Object {
+  "extra": Object {
+    "brokenDeviceData": "{\\"deviceType\\":\\"Mobile-Samsung s10\\",\\"macAddress\\":\\"00:A0:C9:14:C8:29\\",\\"osVersion\\":\\"Android-10\\"}",
+    "potentialAffiliateID": 1,
+  },
+  "message": "missing ip_address in the passed Device Data",
+  "name": "WrongSetup",
+  "originalError": undefined,
+  "statusCode": 500,
+}
+`;
+
+exports[`ProfileService get throws an error if the device data is missing any of the mandatory field 4`] = `
+Object {
+  "extra": Object {
+    "brokenDeviceData": "{\\"deviceType\\":\\"Mobile-Samsung s10\\",\\"ipAddress\\":\\"211.208.0.11\\",\\"osVersion\\":\\"Android-10\\"}",
+    "potentialAffiliateID": 1,
+  },
+  "message": "missing mac_address in the passed Device Data",
+  "name": "WrongSetup",
+  "originalError": undefined,
+  "statusCode": 500,
+}
+`;
+
+exports[`ProfileService get throws an error if the device data is missing any of the mandatory field 5`] = `
+Object {
+  "extra": Object {
+    "brokenDeviceData": "{\\"deviceType\\":\\"Mobile-Samsung s10\\",\\"ipAddress\\":\\"211.208.0.11\\",\\"macAddress\\":\\"00:A0:C9:14:C8:29\\"}",
+    "potentialAffiliateID": 1,
+  },
+  "message": "missing os_version in the passed Device Data",
+  "name": "WrongSetup",
+  "originalError": undefined,
+  "statusCode": 500,
+}
+`;
+
+exports[`ProfileService get throws an error if the device data is not a JSON object 1`] = `
+Object {
+  "extra": Object {
+    "brokenDeviceData": "\\"test\\"",
+    "potentialAffiliateID": 1,
+  },
+  "message": "missing device_type, os_version, ip_address, mac_address in the passed Device Data",
+  "name": "WrongSetup",
+  "originalError": undefined,
+  "statusCode": 500,
+}
+`;
+
+exports[`ProfileService get throws an error if there is no contact data 1`] = `
+Object {
+  "extra": Object {
+    "potentialAffiliateID": 1,
+  },
+  "message": "Current user does not have contact data",
+  "name": "WrongSetup",
+  "originalError": undefined,
+  "statusCode": 500,
+}
+`;
+
+exports[`ProfileService get throws an error if there is no matching potential affiliate 1`] = `
+Object {
+  "extra": Object {},
+  "message": "Current user is not an affiliate",
+  "name": "NotFound",
+  "originalError": undefined,
+  "statusCode": 404,
+}
+`;

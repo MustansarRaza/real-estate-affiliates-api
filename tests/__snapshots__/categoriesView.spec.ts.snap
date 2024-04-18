@@ -1,0 +1,284 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GET /categories returns 400 bad request if the specified agencyID is not an integer 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "params",
+      "message": "Invalid value",
+      "name": "InvalidRequestData",
+      "param": "agencyID",
+    },
+  ],
+}
+`;
+
+exports[`GET /categories returns 400 bad request if the specified agencyID is not an integer 2`] = `
+Object {
+  "cache-control": "private, no-store",
+  "connection": "close",
+  "content-length": "107",
+  "content-type": "application/json; charset=utf-8",
+  "etag": "W/\\"6b-oNG0K0Fa5SP95h8Abr2F4h49al8\\"",
+  "strict-transport-security": "max-age=15552000; includeSubDomains",
+  "vary": "Accept-Encoding",
+  "x-content-type-options": "nosniff",
+  "x-dns-prefetch-control": "off",
+  "x-download-options": "noopen",
+  "x-frame-options": "SAMEORIGIN",
+  "x-xss-protection": "1; mode=block",
+}
+`;
+
+exports[`GET /categories returns a flat list of categories. The cities and project ids from agency \`1337\` that are avialable in a category are also listed within it 1`] = `
+Array [
+  Object {
+    "availableInCities": Array [],
+    "availableInProjects": Array [],
+    "id": 1,
+    "name": "Residential",
+    "nameSingular": "Residential",
+    "orderIndex": 0,
+    "parentID": null,
+    "popularityIndex": 0,
+    "slug": "residential",
+  },
+  Object {
+    "availableInCities": Array [],
+    "availableInProjects": Array [],
+    "id": 2,
+    "name": "Commercial",
+    "nameSingular": "Commercial",
+    "orderIndex": 1,
+    "parentID": null,
+    "popularityIndex": 0,
+    "slug": "commercial",
+  },
+  Object {
+    "availableInCities": Array [],
+    "availableInProjects": Array [],
+    "id": 6,
+    "name": "Residential Apartment",
+    "nameSingular": "Residential Apartment",
+    "orderIndex": 1,
+    "parentID": 3,
+    "popularityIndex": 1,
+    "slug": "Residential Apartment",
+  },
+  Object {
+    "availableInCities": Array [],
+    "availableInProjects": Array [],
+    "id": 10,
+    "name": "Plots",
+    "nameSingular": "Plot",
+    "orderIndex": 2,
+    "parentID": null,
+    "popularityIndex": 0,
+    "slug": "Plots",
+  },
+  Object {
+    "availableInCities": Array [
+      Object {
+        "cityID": 3,
+        "unitsCount": 1,
+      },
+      Object {
+        "cityID": 4,
+        "unitsCount": 1,
+      },
+    ],
+    "availableInProjects": Array [
+      7331,
+      1337,
+    ],
+    "id": 3,
+    "name": "Apartments",
+    "nameSingular": "Apartment",
+    "orderIndex": 3,
+    "parentID": 1,
+    "popularityIndex": 0,
+    "slug": "apartments",
+  },
+  Object {
+    "availableInCities": Array [],
+    "availableInProjects": Array [],
+    "id": 4,
+    "name": "Shops",
+    "nameSingular": "Shop",
+    "orderIndex": 4,
+    "parentID": 2,
+    "popularityIndex": 3,
+    "slug": "shops",
+  },
+  Object {
+    "availableInCities": Array [],
+    "availableInProjects": Array [],
+    "id": 5,
+    "name": "Residential Plots",
+    "nameSingular": "Residential Plot",
+    "orderIndex": 10,
+    "parentID": 10,
+    "popularityIndex": 2,
+    "slug": "Residential_Plots",
+  },
+  Object {
+    "availableInCities": Array [],
+    "availableInProjects": Array [],
+    "id": 7,
+    "name": "Hotel Apartment",
+    "nameSingular": "Hotel Apartment",
+    "orderIndex": 20,
+    "parentID": 3,
+    "popularityIndex": 4,
+    "slug": "Hotel_Apartment",
+  },
+]
+`;
+
+exports[`GET /categories returns a flat list of categories. The cities and project ids from agency \`1337\` that are avialable in a category are also listed within it 2`] = `
+Object {
+  "cache-control": "private, no-store",
+  "connection": "close",
+  "content-encoding": "gzip",
+  "content-type": "application/json; charset=utf-8",
+  "etag": "W/\\"5dc-jOpyRCbMXWGZ50EnA9ojGs7YeVw\\"",
+  "strict-transport-security": "max-age=15552000; includeSubDomains",
+  "transfer-encoding": "chunked",
+  "vary": "Accept-Encoding",
+  "x-content-type-options": "nosniff",
+  "x-dns-prefetch-control": "off",
+  "x-download-options": "noopen",
+  "x-frame-options": "SAMEORIGIN",
+  "x-xss-protection": "1; mode=block",
+}
+`;
+
+exports[`GET /categories returns a flat list of categories. The cities and project ids from all agencies that are avialable in a category are also listed within it 1`] = `
+Array [
+  Object {
+    "availableInCities": Array [],
+    "availableInProjects": Array [],
+    "id": 1,
+    "name": "Residential",
+    "nameSingular": "Residential",
+    "orderIndex": 0,
+    "parentID": null,
+    "popularityIndex": 0,
+    "slug": "residential",
+  },
+  Object {
+    "availableInCities": Array [],
+    "availableInProjects": Array [],
+    "id": 2,
+    "name": "Commercial",
+    "nameSingular": "Commercial",
+    "orderIndex": 1,
+    "parentID": null,
+    "popularityIndex": 0,
+    "slug": "commercial",
+  },
+  Object {
+    "availableInCities": Array [
+      Object {
+        "cityID": 3,
+        "unitsCount": 1,
+      },
+    ],
+    "availableInProjects": Array [
+      5,
+    ],
+    "id": 6,
+    "name": "Residential Apartment",
+    "nameSingular": "Residential Apartment",
+    "orderIndex": 1,
+    "parentID": 3,
+    "popularityIndex": 1,
+    "slug": "Residential Apartment",
+  },
+  Object {
+    "availableInCities": Array [],
+    "availableInProjects": Array [],
+    "id": 10,
+    "name": "Plots",
+    "nameSingular": "Plot",
+    "orderIndex": 2,
+    "parentID": null,
+    "popularityIndex": 0,
+    "slug": "Plots",
+  },
+  Object {
+    "availableInCities": Array [
+      Object {
+        "cityID": 3,
+        "unitsCount": 1,
+      },
+      Object {
+        "cityID": 4,
+        "unitsCount": 1,
+      },
+    ],
+    "availableInProjects": Array [
+      7331,
+      1337,
+    ],
+    "id": 3,
+    "name": "Apartments",
+    "nameSingular": "Apartment",
+    "orderIndex": 3,
+    "parentID": 1,
+    "popularityIndex": 0,
+    "slug": "apartments",
+  },
+  Object {
+    "availableInCities": Array [],
+    "availableInProjects": Array [],
+    "id": 4,
+    "name": "Shops",
+    "nameSingular": "Shop",
+    "orderIndex": 4,
+    "parentID": 2,
+    "popularityIndex": 3,
+    "slug": "shops",
+  },
+  Object {
+    "availableInCities": Array [],
+    "availableInProjects": Array [],
+    "id": 5,
+    "name": "Residential Plots",
+    "nameSingular": "Residential Plot",
+    "orderIndex": 10,
+    "parentID": 10,
+    "popularityIndex": 2,
+    "slug": "Residential_Plots",
+  },
+  Object {
+    "availableInCities": Array [],
+    "availableInProjects": Array [],
+    "id": 7,
+    "name": "Hotel Apartment",
+    "nameSingular": "Hotel Apartment",
+    "orderIndex": 20,
+    "parentID": 3,
+    "popularityIndex": 4,
+    "slug": "Hotel_Apartment",
+  },
+]
+`;
+
+exports[`GET /categories returns a flat list of categories. The cities and project ids from all agencies that are avialable in a category are also listed within it 2`] = `
+Object {
+  "cache-control": "private, no-store",
+  "connection": "close",
+  "content-encoding": "gzip",
+  "content-type": "application/json; charset=utf-8",
+  "etag": "W/\\"5f8-HHIjJse14JUV9A0OjmaafIdC5KU\\"",
+  "strict-transport-security": "max-age=15552000; includeSubDomains",
+  "transfer-encoding": "chunked",
+  "vary": "Accept-Encoding",
+  "x-content-type-options": "nosniff",
+  "x-dns-prefetch-control": "off",
+  "x-download-options": "noopen",
+  "x-frame-options": "SAMEORIGIN",
+  "x-xss-protection": "1; mode=block",
+}
+`;

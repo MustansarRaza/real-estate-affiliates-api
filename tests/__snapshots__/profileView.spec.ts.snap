@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`/profile denies access to unauthenticated requests 1`] = `Object {}`;
+
+exports[`/profile denies access to unauthenticated requests 2`] = `
+Object {
+  "cache-control": "private, no-store",
+  "connection": "close",
+  "strict-transport-security": "max-age=15552000; includeSubDomains",
+  "transfer-encoding": "chunked",
+  "x-content-type-options": "nosniff",
+  "x-dns-prefetch-control": "off",
+  "x-download-options": "noopen",
+  "x-frame-options": "SAMEORIGIN",
+  "x-xss-protection": "1; mode=block",
+}
+`;
+
+exports[`/profile returns 404 if no profile could be found for the user 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "message": "Current user is not an affiliate",
+      "name": "NotFound",
+    },
+  ],
+}
+`;
+
+exports[`/profile returns the profile 1`] = `
+Object {
+  "address": "Disney Street 123",
+  "affiliateType": "agency",
+  "businessName": "Disney",
+  "email": "walt@disney.com",
+  "familyName": "Disney",
+  "givenName": "Walt",
+  "govIDNumber": "44443333",
+  "govIDType": "NIC",
+  "landLinePhoneNumbers": Array [],
+  "locationID": 3,
+  "mobilePhoneNumbers": Array [
+    "+923344416658",
+  ],
+  "taxNumber": "128937934hsdhjdskf",
+  "termsAndConditionsVersion": null,
+  "username": "walt@disney.com",
+}
+`;
+
+exports[`/profile returns the profile 2`] = `
+Object {
+  "cache-control": "private, no-store",
+  "connection": "close",
+  "content-length": "365",
+  "content-type": "application/json; charset=utf-8",
+  "etag": "W/\\"16d-CWeSuDD/XF30WLvcYu/1dc7UoVM\\"",
+  "strict-transport-security": "max-age=15552000; includeSubDomains",
+  "vary": "Accept-Encoding",
+  "x-content-type-options": "nosniff",
+  "x-dns-prefetch-control": "off",
+  "x-download-options": "noopen",
+  "x-frame-options": "SAMEORIGIN",
+  "x-xss-protection": "1; mode=block",
+}
+`;

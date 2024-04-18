@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GET /leads/summary accepts "" as date range if the provided date is ISO8601 date and returns the leadsSummary as per the provided query params 1`] = `
+Object {
+  "active": 3,
+  "closedWon": 1,
+  "completeDownPayment": 0,
+  "downPayment": 0,
+  "inactive": 1,
+  "tokenGenerated": 0,
+}
+`;
+
+exports[`GET /leads/summary accepts "fromDate=2021-01-01T00:00:00Z" as date range if the provided date is ISO8601 date and returns the leadsSummary as per the provided query params 1`] = `
+Object {
+  "active": 1,
+  "closedWon": 1,
+  "completeDownPayment": 0,
+  "downPayment": 0,
+  "inactive": 3,
+  "tokenGenerated": 0,
+}
+`;
+
+exports[`GET /leads/summary accepts "fromDate=2021-01-01T00:00:00Z&toDate=2021-04-15T00:00:00Z" as date range if the provided date is ISO8601 date and returns the leadsSummary as per the provided query params 1`] = `
+Object {
+  "active": 1,
+  "closedWon": 1,
+  "completeDownPayment": 0,
+  "downPayment": 0,
+  "inactive": 3,
+  "tokenGenerated": 0,
+}
+`;
+
+exports[`GET /leads/summary accepts "toDate=2021-04-15T00:00:00Z" as date range if the provided date is ISO8601 date and returns the leadsSummary as per the provided query params 1`] = `
+Object {
+  "active": 3,
+  "closedWon": 1,
+  "completeDownPayment": 0,
+  "downPayment": 0,
+  "inactive": 1,
+  "tokenGenerated": 0,
+}
+`;
+
+exports[`GET /leads/summary denies access to unauthenticated requests 1`] = `Object {}`;
+
+exports[`GET /leads/summary denies access to unauthenticated requests 2`] = `
+Object {
+  "cache-control": "private, no-store",
+  "connection": "close",
+  "strict-transport-security": "max-age=15552000; includeSubDomains",
+  "transfer-encoding": "chunked",
+  "x-content-type-options": "nosniff",
+  "x-dns-prefetch-control": "off",
+  "x-download-options": "noopen",
+  "x-frame-options": "SAMEORIGIN",
+  "x-xss-protection": "1; mode=block",
+}
+`;
+
+exports[`GET /leads/summary returns leads summary for a verified user 1`] = `
+Object {
+  "active": 1,
+  "closedWon": 1,
+  "completeDownPayment": 0,
+  "downPayment": 0,
+  "inactive": 3,
+  "tokenGenerated": 0,
+}
+`;
+
+exports[`GET /leads/summary returns leads summary for a verified user 2`] = `
+Object {
+  "cache-control": "private, no-store",
+  "connection": "close",
+  "content-length": "98",
+  "content-type": "application/json; charset=utf-8",
+  "etag": "W/\\"62-8SaL6LP4INuUZPpFPUELDSEAzXs\\"",
+  "strict-transport-security": "max-age=15552000; includeSubDomains",
+  "vary": "Accept-Encoding",
+  "x-content-type-options": "nosniff",
+  "x-dns-prefetch-control": "off",
+  "x-download-options": "noopen",
+  "x-frame-options": "SAMEORIGIN",
+  "x-xss-protection": "1; mode=block",
+}
+`;
+
+exports[`GET /leads/summary throws Bad Request for the date range = "fromDate=156" since the provided date is not ISO8601 date 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "query",
+      "message": "Not a valid ISO 8601 date",
+      "name": "InvalidRequestData",
+      "param": "fromDate",
+    },
+  ],
+}
+`;
+
+exports[`GET /leads/summary throws Bad Request for the date range = "fromDate=null&toDate=undefined" since the provided date is not ISO8601 date 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "query",
+      "message": "Not a valid ISO 8601 date",
+      "name": "InvalidRequestData",
+      "param": "fromDate",
+    },
+    Object {
+      "location": "query",
+      "message": "Not a valid ISO 8601 date",
+      "name": "InvalidRequestData",
+      "param": "toDate",
+    },
+  ],
+}
+`;
+
+exports[`GET /leads/summary throws Bad Request for the date range = "fromDate=true" since the provided date is not ISO8601 date 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "query",
+      "message": "Not a valid ISO 8601 date",
+      "name": "InvalidRequestData",
+      "param": "fromDate",
+    },
+  ],
+}
+`;
+
+exports[`GET /leads/summary throws Bad Request for the date range = "toDate=helloworld" since the provided date is not ISO8601 date 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "location": "query",
+      "message": "Not a valid ISO 8601 date",
+      "name": "InvalidRequestData",
+      "param": "toDate",
+    },
+  ],
+}
+`;

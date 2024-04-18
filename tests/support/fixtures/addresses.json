@@ -1,0 +1,38 @@
+[
+  {
+    "model": "Address",
+    "data": {
+      "id": 1,
+      "locationID": 3,
+      "countryLocationID": 1,
+      "regionLocationID": 2,
+      "cityLocationID": 3,
+      "localityLocationID": null,
+      "phaseLocationID": null
+    }
+  },
+  {
+    "model": "Address",
+    "data": {
+      "id": 2,
+      "locationID": null,
+      "countryLocationID": 1,
+      "regionLocationID": 2,
+      "cityLocationID": 3,
+      "localityLocationID": null,
+      "phaseLocationID": null
+    }
+  },
+  {
+    "model": "Address",
+    "data": {
+      "id": 3,
+      "locationID": null,
+      "countryLocationID": 1,
+      "regionLocationID": 2,
+      "cityLocationID": 4,
+      "localityLocationID": null,
+      "phaseLocationID": null
+    }
+  }
+]

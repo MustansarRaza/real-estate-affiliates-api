@@ -1,0 +1,72 @@
+[
+  {
+    "model": "MediaBankImage",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 1,
+      "fileName": "image-1.jpg",
+      "key": "6e2da2d7-6ee8-4c47-924a-e0c1355d8eb0",
+      "updatedAt": "2020-03-12T11:21:00+0000",
+      "createdAt": "2020-03-11T09:19:40+0000"
+    }
+  },
+  {
+    "model": "MediaBankImage",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 2,
+      "fileName": "image-2.jpg",
+      "key": "787b463f-7d59-4199-ba2f-a5cf24a091e5",
+      "updatedAt": "2020-03-13T11:20:00+0000",
+      "createdAt": "2020-03-13T11:20:00+0000"
+    }
+  },
+  {
+    "model": "MediaBankImage",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 3,
+      "fileName": "image-3.jpg",
+      "key": "a0493cb7-7eb9-4124-b643-0c0aeb968e20",
+      "createdAt": "2020-03-12T11:38:40+0000",
+      "updatedAt": "2020-03-12T11:38:40+0000"
+    }
+  },
+  {
+    "model": "MediaBankImage",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 4,
+      "fileName": "image-4.jpg",
+      "key": "e3e19683-3264-4ee5-83da-ba64d7434be0",
+      "createdAt": "2020-03-11T09:19:40+0000",
+      "updatedAt": "2020-03-11T09:19:40+0000"
+    }
+  },
+  {
+    "model": "MediaBankImage",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 5,
+      "fileName": "image-5.jpg",
+      "key": "2d0db930-e9ae-4748-b02b-b8dd5d44bad1",
+      "createdAt": "2020-03-11T09:19:40+0000",
+      "updatedAt": "2020-03-11T09:19:40+0000"
+    }
+  }
+]

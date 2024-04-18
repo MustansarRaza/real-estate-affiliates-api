@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListingsService list returns only active images 1`] = `
+Array [
+  Object {
+    "category": "photo",
+    "displayOrder": 0,
+    "id": 1,
+    "url": https://s3bucket.s3.eu-west-1.amazonaws.com/image.jpg?AWSAccessKeyId=S3ACCESSKEYID&Expires=EXPIRES&Signature=SIGNATURE,
+  },
+]
+`;

@@ -1,0 +1,66 @@
+[
+  {
+    "model": "ProjectImage",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 1,
+      "projectID": 1,
+      "title": "Project 1 Image 1",
+      "baseURL": "https://image.zameen.com",
+      "path": "p/1/image-1.jpg",
+      "updatedAt": "2020-03-12T11:21:00+0000",
+      "createdAt": "2020-03-11T09:19:40+0000"
+    }
+  },
+  {
+    "model": "ProjectImage",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 2,
+      "projectID": 2,
+      "title": "Project 2 Image 1",
+      "baseURL": "https://image.zameen.com",
+      "path": "p/2/image-1.jpg",
+      "updatedAt": "2020-03-13T11:20:00+0000",
+      "createdAt": "2020-03-13T11:20:00+0000"
+    }
+  },
+  {
+    "model": "ProjectImage",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 3,
+      "projectID": 1,
+      "title": "Project 1 Image 2",
+      "baseURL": "https://image.zameen.com",
+      "path": "p/1/image-2.jpg",
+      "createdAt": "2020-03-12T11:38:40+0000",
+      "updatedAt": "2020-03-12T11:38:40+0000"
+    }
+  },
+  {
+    "model": "ProjectImage",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 4,
+      "projectID": 4,
+      "title": "Project 4 Image 1",
+      "baseURL": "https://image.zameen.com",
+      "path": "p/4/image-1.jpg",
+      "createdAt": "2020-03-11T09:19:40+0000",
+      "updatedAt": "2020-03-11T09:19:40+0000"
+    }
+  }
+]

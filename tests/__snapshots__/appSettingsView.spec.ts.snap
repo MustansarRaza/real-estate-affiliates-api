@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GET /markets/secondary/listings returns current and minimum app version for affiliates app 1`] = `
+Object {
+  "appVariables": Object {
+    "min_version": "0.1.0",
+  },
+  "version": "0.1.1",
+}
+`;

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GET /locations returns a flat list of locations 1`] = `
+Array [
+  Object {
+    "id": 1,
+    "iso31662Code": "PK",
+    "name": "Pakistan",
+    "parentID": null,
+    "typeID": 0,
+  },
+  Object {
+    "id": 2,
+    "name": "Punjab",
+    "parentID": 1,
+    "typeID": 1,
+  },
+  Object {
+    "id": 3,
+    "name": "Lahore",
+    "parentID": 2,
+    "typeID": 2,
+  },
+  Object {
+    "id": 4,
+    "name": "Multan",
+    "parentID": 2,
+    "typeID": 2,
+  },
+  Object {
+    "id": 50,
+    "name": "DHA Phase-I",
+    "parentID": 3,
+  },
+]
+`;
+
+exports[`GET /locations returns a flat list of locations 2`] = `
+Object {
+  "cache-control": "private, no-store",
+  "connection": "close",
+  "content-length": "266",
+  "content-type": "application/json; charset=utf-8",
+  "etag": "W/\\"10a-1CLIWjOadkiuyBDBQ+cAX3C1F/k\\"",
+  "strict-transport-security": "max-age=15552000; includeSubDomains",
+  "vary": "Accept-Encoding",
+  "x-content-type-options": "nosniff",
+  "x-dns-prefetch-control": "off",
+  "x-download-options": "noopen",
+  "x-frame-options": "SAMEORIGIN",
+  "x-xss-protection": "1; mode=block",
+}
+`;

@@ -1,0 +1,60 @@
+[
+  {
+    "model": "PotentialAffiliate",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 1,
+      "status": "verified",
+      "ssoID": "4255c2ae-3f11-4a26-a401-3981c8845df3",
+      "affiliateContactID": 99,
+      "contactData": {
+        "email": "walt@disney.com",
+        "firstName": "Walt",
+        "lastName": "Disney",
+        "mobile": "+923344416658",
+        "address": "Disney Street 123",
+        "idType": "NIC",
+        "idNumber": "44443333",
+        "ntn": "128937934hsdhjdskf",
+        "businessName": "Disney",
+        "affiliateType": "1",
+        "cityId": "3"
+      },
+      "isTest": 0,
+      "updatedAt": "2020-03-12T11:21:00+0000",
+      "createdAt": "2020-03-11T09:19:40+0000"
+    }
+  },
+  {
+    "model": "PotentialAffiliate",
+    "saveOptions": {
+      "raw": true,
+      "silent": true
+    },
+    "data": {
+      "id": 2,
+      "status": "registered",
+      "ssoID": "b8d3b78f-d7c0-45f9-be04-1e168ae959d3",
+      "affiliateContactID": null,
+      "contactData": {
+        "email": "henk@jansen.com",
+        "firstName": "Henk",
+        "lastName": "Jansen",
+        "mobile": "+923377178218",
+        "address": "Oompa Loompa 3",
+        "idType": "NIC",
+        "idNumber": "28989212",
+        "ntn": "hdfkhsdfk2923",
+        "businessName": null,
+        "affiliateType": "2",
+        "cityId": "3"
+      },
+      "isTest": 0,
+      "updatedAt": "2020-03-11T21:45:00+0000",
+      "createdAt": "2020-03-10T09:19:40+0000"
+    }
+  }
+]

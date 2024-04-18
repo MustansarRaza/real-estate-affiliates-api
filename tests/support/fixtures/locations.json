@@ -1,0 +1,62 @@
+[
+  {
+    "model": "Location",
+    "data": {
+      "id": 1,
+      "name": "Pakistan",
+      "parentID": null,
+      "countryID": 3,
+      "level": 1,
+      "level1LocationID": 1,
+      "level3LocationID": null
+    }
+  },
+  {
+    "model": "Location",
+    "data": {
+      "id": 2,
+      "name": "Punjab",
+      "parentID": 1,
+      "countryID": 3,
+      "level": 2,
+      "level1LocationID": 1,
+      "level3LocationID": null
+    }
+  },
+  {
+    "model": "Location",
+    "data": {
+      "id": 3,
+      "name": "Lahore",
+      "parentID": 2,
+      "countryID": 3,
+      "level": 3,
+      "level1LocationID": 1,
+      "level3LocationID": 3
+    }
+  },
+  {
+    "model": "Location",
+    "data": {
+      "id": 4,
+      "name": "Multan",
+      "parentID": 2,
+      "countryID": 3,
+      "level": 3,
+      "level1LocationID": 1,
+      "level3LocationID": 4
+    }
+  },
+  {
+    "model": "Location",
+    "data": {
+      "id": 50,
+      "name": "DHA Phase-I",
+      "parentID": 3,
+      "countryID": 3,
+      "level": 4,
+      "level1LocationID": 1,
+      "level3LocationID": 3
+    }
+  }
+]

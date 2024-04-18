@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MeService assignees returns a list of assignees for the specified SSO ID 1`] = `
+Array [
+  Object {
+    "affiliateID": 1,
+    "type": "bdm",
+    "user": Object {
+      "email": "henk@world.com",
+      "hasWhatsApp": true,
+      "id": 1,
+      "landLinePhoneNumber": "+922123569856",
+      "mobilePhoneNumber": "+923377178218",
+      "name": "Henk Jansen",
+    },
+  },
+  Object {
+    "affiliateID": 1,
+    "type": "coordinator",
+    "user": Object {
+      "email": "walt@disney.com",
+      "hasWhatsApp": false,
+      "id": 2,
+      "landLinePhoneNumber": null,
+      "mobilePhoneNumber": "+923377178218",
+      "name": "Walt Disney",
+    },
+  },
+]
+`;
+
+exports[`MeService create allows re-creating the user when a previous attempt failed to create profile 1`] = `[Error: crap!]`;
+
+exports[`MeService create creates a new user 1`] = `
+Object {
+  "affiliate": null,
+  "affiliateVerificationStatus": Object {
+    "id": 1,
+    "status": "new",
+  },
+  "profile": Object {
+    "address": "Walstreet 23",
+    "affiliateType": "agency",
+    "businessName": "Disney",
+    "email": "walt@disney.com",
+    "familyName": "Disney",
+    "givenName": "Walt",
+    "govIDNumber": "2382738923",
+    "govIDType": "NIC",
+    "landLinePhoneNumbers": Array [
+      "+922123569856",
+    ],
+    "locationID": 3,
+    "mobilePhoneNumbers": Array [
+      "+923377178218",
+    ],
+    "taxNumber": "2349231292",
+    "termsAndConditionsVersion": "1.1.1",
+    "username": "walt@disney.com",
+  },
+  "ssoID": "test",
+  "status": "unverified",
+}
+`;
+
+exports[`MeService create creates a new user 2`] = `
+Object {
+  "address": Array [
+    "Walstreet 23",
+  ],
+  "affiliateType": Array [
+    1,
+  ],
+  "affiliateTypeTitle": Array [
+    "Agency",
+  ],
+  "businessAddress": Array [
+    "Walstreet 23",
+  ],
+  "businessName": Array [
+    "Disney",
+  ],
+  "city": Array [
+    3,
+  ],
+  "country": Array [
+    1,
+  ],
+  "govtId": Array [
+    "NIC",
+  ],
+  "isProfileCompleted": Array [
+    "yes",
+  ],
+  "landline": Array [
+    "+922123569856",
+  ],
+  "mobile": Array [
+    "+923377178218",
+  ],
+  "ntn": "2349231292",
+}
+`;
+
+exports[`MeService create raises an error if a location without a level1 ID is specified 1`] = `
+Object {
+  "extra": Object {
+    "locationID": 3,
+  },
+  "message": "Cannot find location",
+  "name": "BadRequest",
+  "originalError": undefined,
+  "statusCode": 400,
+}
+`;
+
+exports[`MeService create raises an error if an invalid location ID is specified 1`] = `
+Object {
+  "extra": Object {
+    "locationID": 3,
+  },
+  "message": "Cannot find location",
+  "name": "BadRequest",
+  "originalError": undefined,
+  "statusCode": 400,
+}
+`;
+
+exports[`MeService create raises an error if keycloak client secret is missing 1`] = `
+Object {
+  "extra": Object {
+    "clientID": "affiliates",
+  },
+  "message": "Keycloak client secret is not configured",
+  "name": "WrongSetup",
+  "originalError": undefined,
+  "statusCode": 500,
+}
+`;
+
+exports[`MeService create throws an error when creating the same user twice 1`] = `
+Object {
+  "extra": Object {
+    "email": "walt@disney.com",
+  },
+  "message": "User with this e-mail or phone number already exists",
+  "name": "Conflict",
+  "originalError": undefined,
+  "statusCode": 409,
+}
+`;

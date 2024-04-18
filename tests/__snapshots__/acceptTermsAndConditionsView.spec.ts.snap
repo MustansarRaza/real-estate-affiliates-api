@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`/acceptTermsAndConditions returns 404 if no profile could be found for the user 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "message": "Current user is not an affiliate",
+      "name": "NotFound",
+    },
+  ],
+}
+`;
+
+exports[`/acceptTermsAndConditions updates user profile with accepted version of terms and conditions 1`] = `
+Object {
+  "affiliate": Object {
+    "agencyID": 1337,
+    "assignees": Array [],
+    "id": 1,
+  },
+  "affiliateVerificationStatus": Object {
+    "id": 1,
+    "status": "new",
+  },
+  "profile": Object {
+    "address": "Disney Street 123",
+    "affiliateType": "agency",
+    "businessName": "Disney",
+    "email": "walt@disney.com",
+    "familyName": "Disney",
+    "givenName": "Walt",
+    "govIDNumber": "44443333",
+    "govIDType": "NIC",
+    "landLinePhoneNumbers": Array [],
+    "locationID": 3,
+    "mobilePhoneNumbers": Array [
+      "+923344416658",
+    ],
+    "taxNumber": "128937934hsdhjdskf",
+    "termsAndConditionsVersion": "1.1.1",
+    "username": "walt@disney.com",
+  },
+  "ssoID": "4255c2ae-3f11-4a26-a401-3981c8845df3",
+  "status": "verified",
+}
+`;
+
+exports[`/acceptTermsAndConditions updates user profile with accepted version of terms and conditions 2`] = `
+Object {
+  "cache-control": "private, no-store",
+  "connection": "close",
+  "content-length": "553",
+  "content-type": "application/json; charset=utf-8",
+  "etag": "W/\\"229-vKpVlVZxQxrzw4RZzHck9vrHXKU\\"",
+  "strict-transport-security": "max-age=15552000; includeSubDomains",
+  "vary": "Accept-Encoding",
+  "x-content-type-options": "nosniff",
+  "x-dns-prefetch-control": "off",
+  "x-download-options": "noopen",
+  "x-frame-options": "SAMEORIGIN",
+  "x-xss-protection": "1; mode=block",
+}
+`;
