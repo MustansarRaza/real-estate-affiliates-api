@@ -55,22 +55,11 @@ You can see an up to date list of cach-able endpoints and their cache lifetime i
 
 ### Running a build
 
-All commands below are relative to the root of the mono-repo.
-
-    yarn build:libs
-    cd packages/affiliates-api
     yarn build
     yarn start
 
 ### Running a development server
 
-All commands below are relative to the root of the mono-repo.
-
-    yarn watch:affiliates-api
-
-In a separate terminal:
-
-    cd packages/affiliates-api
     yarn start:dev
 
 ### Common commands
@@ -84,7 +73,6 @@ In a separate terminal:
         yarn lint
 
 3.  Type check code
-
 
         yarn lint:types
 
