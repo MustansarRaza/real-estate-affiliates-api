@@ -1,8 +1,17 @@
-# Affiliates API
+# Real Estate Affiliates API
 
 ## About
 
 API dedicated to serving data used exclusively by the public affiliates app. This is a separate API so that the attack surface is limited.
+
+## Architectural Capabilities
+
+API is structured around providing a secure and isolated service for handling real estate data. Key architectural features include:
+
+1. ***Authentication***: Utilizing Keycloak for OAuth2 authentication to ensure secure API access through bearer tokens.
+2. ***Caching***: Employing Redis for server-side caching to enhance performance and manage load efficiently.
+3. ***Containerization***: Docker is used for creating isolated environments that are consistent across development and production settings, ensuring the application runs smoothly in different environments.
+4. ***Service Isolation***: The API is designed as a standalone service, which minimizes the attack surface by being separate from other parts of the application infrastructure.
 
 ### Authorization
 
@@ -142,11 +151,11 @@ You can always find an up to date list in `src/config.ts`.
 | APP_SECRET                | -                                         | Randomly generated string used to encrypt cookies with.                               |     |     |
 | APP_ENVIRONMENT           | unknown                                   | Name of the environment we're running in. Sent to Sentry.                             |     |     |
 | APP_RELEASE               | unknown                                   | Name of the release (commit hash). Sent to Sentry.                                    |     |     |
-| KEYCLOAK_REALM            | propforce                                 | Name of the Keycloak realm to validate tokens against.                                |     |     |
-| KEYCLOAK_CLIENT_ID        | affiliates                                | Client ID the service should make requests with against the Keycloak server.          |     |     |
+| KEYCLOAK_REALM            | unknown                                   | Name of the Keycloak realm to validate tokens against.                                |     |     |
+| KEYCLOAK_CLIENT_ID        | unknown                                   | Client ID the service should make requests with against the Keycloak server.          |     |     |
 | KEYCLOAK_CLIENT_SECRET    | -                                         | Secret used to validate Keycloak tokens with without contacting the server.           |     |     |
 | KEYCLOAK_AUTH_SERVER_URL  | https://stagemyaccount.propforce.com/auth | URL of the Keykloak server to validate tokens against.                                |     |     |
-| DATABASE_URL              | mysql://root:@127.0.0.1/zameen_main       | URI describring how to connect to the Propforce MySQL database.                       |     |     |
+| DATABASE_URL              | mysql://root:@127.0.0.1/affiliates_main   | URI describring how to connect to the MySQL database.                                 |     |     |
 | REDIS_URL                 | -                                         | URI describring how to connect to Redis for caching.                                  |     |     |
 | AWS_S3_BUCKET_NAME        | affiliates-stage                          | Name of the AWS S3 bucket to use generate URL's for file paths found in the database. |     |     |
 | AWS_S3_BUCKET_REGION      | eu-west-1                                 | AWS S3 region identifier, region the AWS S3 bucket is in.                             |     |     |
